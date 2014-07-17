@@ -1,0 +1,729 @@
+TWebViewTableView
+v6
+r1
+cCheck dependencies
+cProcessPCH /Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Intermediates/PrecompiledHeaders/WebViewTableView-Prefix-hijsypsaoetqgfblfvjsxpwgksqg/WebViewTableView-Prefix.pch.pch WebViewTableView/WebViewTableView-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/WebViewTableView/Build/Intermediates/WebViewTableView.build/Debug-iphonesimulator/WebViewTableView.build/Objects-normal/i386/HHViewController.o /Users/hhe/Desktop/Workspace/WebViewTableView/WebViewTableView/HHViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/WebViewTableView/Build/Intermediates/WebViewTableView.build/Debug-iphonesimulator/WebViewTableView.build/Objects-normal/i386/HHAppDelegate.o /Users/hhe/Desktop/Workspace/WebViewTableView/WebViewTableView/HHAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/WebViewTableView/Build/Intermediates/WebViewTableView.build/Debug-iphonesimulator/WebViewTableView.build/Objects-normal/i386/main.o /Users/hhe/Desktop/Workspace/WebViewTableView/WebViewTableView/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator/WebViewTableView.app/WebViewTableView normal i386
+cCpResource WebViewTableView/default_template.html DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator/WebViewTableView.app/default_template.html
+cCompileStoryboard /Users/hhe/Desktop/Workspace/WebViewTableView/WebViewTableView/Base.lproj/Main_iPad.storyboard
+cCompileStoryboard /Users/hhe/Desktop/Workspace/WebViewTableView/WebViewTableView/Base.lproj/Main_iPhone.storyboard
+cCopyStringsFile /Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator/WebViewTableView.app/en.lproj/InfoPlist.strings WebViewTableView/en.lproj/InfoPlist.strings
+cCompileAssetCatalog /Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator/WebViewTableView.app /Users/hhe/Desktop/Workspace/WebViewTableView/WebViewTableView/Images.xcassets
+cProcessInfoPlistFile /Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator/WebViewTableView.app/Info.plist /Users/hhe/Desktop/Workspace/WebViewTableView/WebViewTableView/WebViewTableView-Info.plist
+cGenerateDSYMFile /Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator/WebViewTableView.app.dSYM /Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator/WebViewTableView.app/WebViewTableView
+cTouch /Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator/WebViewTableView.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
+c0000000053582FD80000000000000198
+t1398288344
+s408
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
+c00000000531F92E100000000000003B4
+t1394578145
+s948
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000531F92E7000000000000019E
+t1394578151
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c00000000531F92E9000000000058E0E0
+t1394578153
+s5824736
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c00000000531F92E900000000005B82F0
+t1394578153
+s5997296
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000053582FB70000000000446820
+t1398288311
+s4483104
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+c00000000531F92E900000000003599D0
+t1394578153
+s3512784
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+c00000000531F92E900000000002FC3B0
+t1394578153
+s3130288
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c00000000531F92E9000000000004B000
+t1394578153
+s307200
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000531F92EA000000000088D8C0
+t1394578154
+s8968384
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c00000000531F92EC0000000000037680
+t1394578156
+s226944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c00000000531F92EC000000000048F720
+t1394578156
+s4781856
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Security.framework/Security
+c00000000531F92EC000000000013FD70
+t1394578156
+s1310064
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000531F92EF0000000001F1DE10
+t1394578159
+s32628240
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+c00000000531F92F700000000002BC360
+t1394578167
+s2868064
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/crt1.o
+c00000000531F92FD0000000000002338
+t1394578173
+s9016
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libSystem.dylib
+c00000000531F92FD000000000008D370
+t1394578173
+s578416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libobjc.dylib
+c00000000531F92FD0000000000392E20
+t1394578173
+s3747360
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/host/libdyld.dylib
+c00000000532A36D800000000000141F0
+t1395275480
+s82416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcache_sim.dylib
+c00000000531F92FD0000000000014A80
+t1394578173
+s84608
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+c00000000531F92FD0000000000033BA0
+t1394578173
+s211872
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+c00000000531F92FD000000000001CFB0
+t1394578173
+s118704
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcopyfile_sim.dylib
+c00000000531F92FD000000000001B2B0
+t1394578173
+s111280
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcorecrypto_sim.dylib
+c00000000531F92FE00000000000C9570
+t1394578174
+s824688
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdispatch.dylib
+c00000000531F92FD0000000000063280
+t1394578173
+s406144
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdyld_sim.dylib
+c00000000531F92FD0000000000008880
+t1394578173
+s34944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libmacho_sim.dylib
+c00000000531F92FD0000000000015080
+t1394578173
+s86144
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libnotify_sim.dylib
+c00000000531F92FD00000000000230F0
+t1394578173
+s143600
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libremovefile_sim.dylib
+c00000000531F92FD000000000000E380
+t1394578173
+s58240
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_network.dylib
+c00000000531F92FD0000000000089380
+t1394578173
+s562048
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_override.dylib
+c00000000531F92FD0000000000017320
+t1394578173
+s95008
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_asl.dylib
+c00000000531F92FD0000000000039CD0
+t1394578173
+s236752
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+c00000000531F92FD000000000000B0B0
+t1394578173
+s45232
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_c.dylib
+c00000000531F92FE0000000000167E80
+t1394578174
+s1474176
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+c00000000531F92FD00000000000106A0
+t1394578173
+s67232
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+c00000000531F92FD000000000001CE40
+t1394578173
+s118336
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_info.dylib
+c00000000531F92FE00000000000740C0
+t1394578174
+s475328
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_m.dylib
+c00000000531F92FE000000000006CA60
+t1394578174
+s445024
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libunwind_sim.dylib
+c00000000531F92FE000000000001BAD0
+t1394578174
+s113360
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libxpc.dylib
+c00000000531F92FE0000000000084A20
+t1394578174
+s543264
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c00000000531F930F0000000000000ADC
+t1394578191
+s2780
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+c0000000053582FB7000000000000514C
+t1398288311
+s20812
+
+N/Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Intermediates/PrecompiledHeaders/WebViewTableView-Prefix-hijsypsaoetqgfblfvjsxpwgksqg/WebViewTableView-Prefix.pch.pch
+t1405559174
+s116720
+
+N/Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Intermediates/WebViewTableView.build/Debug-iphonesimulator/WebViewTableView.build/Objects-normal/i386/HHAppDelegate.o
+t1405559175
+s62496
+
+N/Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Intermediates/WebViewTableView.build/Debug-iphonesimulator/WebViewTableView.build/Objects-normal/i386/HHViewController.o
+t1405568939
+s88056
+
+N/Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Intermediates/WebViewTableView.build/Debug-iphonesimulator/WebViewTableView.build/Objects-normal/i386/WebViewTableView.LinkFileList
+c0000000053C72184000000000000024F
+t1405559172
+s591
+
+N/Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Intermediates/WebViewTableView.build/Debug-iphonesimulator/WebViewTableView.build/Objects-normal/i386/main.o
+t1405559175
+s3576
+
+N/Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Intermediates/WebViewTableView.build/Debug-iphonesimulator/WebViewTableView.build/assetcatalog_dependencies.txt
+t1405559839
+s518
+
+N/Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Intermediates/WebViewTableView.build/Debug-iphonesimulator/WebViewTableView.build/assetcatalog_generated_info.plist
+t1405559839
+s525
+
+N/Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator/WebViewTableView.app
+t1405568939
+s340
+
+N/Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator/WebViewTableView.app.dSYM
+t1405568939
+s102
+
+N/Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator/WebViewTableView.app/Base.lproj/Main_iPad.storyboardc
+t1405559177
+s170
+
+N/Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator/WebViewTableView.app/Base.lproj/Main_iPhone.storyboardc
+t1405560393
+s170
+
+N/Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator/WebViewTableView.app/Info.plist
+t1405559839
+s1303
+
+N/Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator/WebViewTableView.app/PkgInfo
+t1405559840
+s8
+
+N/Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator/WebViewTableView.app/WebViewTableView
+t1405568939
+s44364
+
+N/Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator/WebViewTableView.app/default_template.html
+t1405561807
+s78619
+
+N/Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator/WebViewTableView.app/en.lproj/InfoPlist.strings
+t1405559175
+s42
+
+N/Users/hhe/Desktop/Workspace/WebViewTableView/WebViewTableView/Base.lproj/Main_iPad.storyboard
+c0000000053C71FF10000000000000715
+t1405558769
+s1813
+
+N/Users/hhe/Desktop/Workspace/WebViewTableView/WebViewTableView/Base.lproj/Main_iPhone.storyboard
+c0000000053C726480000000000002252
+t1405560392
+s8786
+
+N/Users/hhe/Desktop/Workspace/WebViewTableView/WebViewTableView/HHAppDelegate.h
+c0000000053C71FF10000000000000114
+t1405558769
+s276
+
+N/Users/hhe/Desktop/Workspace/WebViewTableView/WebViewTableView/HHAppDelegate.m
+c0000000053C71FF100000000000007D8
+t1405558769
+s2008
+
+N/Users/hhe/Desktop/Workspace/WebViewTableView/WebViewTableView/HHViewController.h
+c0000000053C71FF100000000000000D6
+t1405558769
+s214
+
+N/Users/hhe/Desktop/Workspace/WebViewTableView/WebViewTableView/HHViewController.m
+c0000000053C747AA000000000000200B
+t1405568938
+s8203
+
+N/Users/hhe/Desktop/Workspace/WebViewTableView/WebViewTableView/Images.xcassets
+c0000000053C7241D00000000000000AA
+t1405559837
+s170
+
+N/Users/hhe/Desktop/Workspace/WebViewTableView/WebViewTableView/WebViewTableView-Info.plist
+c0000000053C71FF1000000000000062B
+t1405558769
+s1579
+
+N/Users/hhe/Desktop/Workspace/WebViewTableView/WebViewTableView/WebViewTableView-Prefix.pch
+c0000000053C71FF10000000000000158
+t1405558769
+s344
+
+N/Users/hhe/Desktop/Workspace/WebViewTableView/WebViewTableView/default_template.html
+c0000000053BF1924000000000001331B
+t1405032740
+s78619
+
+N/Users/hhe/Desktop/Workspace/WebViewTableView/WebViewTableView/en.lproj/InfoPlist.strings
+c0000000053C71FF1000000000000002D
+t1405558769
+s45
+
+N/Users/hhe/Desktop/Workspace/WebViewTableView/WebViewTableView/main.m
+c0000000053C71FF10000000000000150
+t1405558769
+s336
+
+N/usr/lib/libSystem.B.dylib
+c00000000532A36CA000000000000E6D0
+t1395275466
+s59088
+
+N/usr/lib/system/libcache.dylib
+c00000000532A36D80000000000012A00
+t1395275480
+s76288
+
+N/usr/lib/system/libcommonCrypto.dylib
+c00000000532A36BD000000000002E320
+t1395275453
+s189216
+
+N/usr/lib/system/libcompiler_rt.dylib
+c00000000532A36CA0000000000021860
+t1395275466
+s137312
+
+N/usr/lib/system/libcopyfile.dylib
+c00000000532A36D7000000000001B620
+t1395275479
+s112160
+
+N/usr/lib/system/libcorecrypto.dylib
+c00000000532A36D700000000000BD920
+t1395275479
+s776480
+
+N/usr/lib/system/libdyld.dylib
+c00000000532A36D800000000000141F0
+t1395275480
+s82416
+
+N/usr/lib/system/libkeymgr.dylib
+c00000000532A36D8000000000000A120
+t1395275480
+s41248
+
+N/usr/lib/system/liblaunch.dylib
+c00000000532A36D8000000000001D550
+t1395275480
+s120144
+
+N/usr/lib/system/libmacho.dylib
+c00000000532A36D70000000000014EE0
+t1395275479
+s85728
+
+N/usr/lib/system/libquarantine.dylib
+c00000000532A36DA0000000000010380
+t1395275482
+s66432
+
+N/usr/lib/system/libremovefile.dylib
+c00000000532A36DA000000000000C4C0
+t1395275482
+s50368
+
+N/usr/lib/system/libsystem_asl.dylib
+c00000000532A36D800000000000357A0
+t1395275480
+s219040
+
+N/usr/lib/system/libsystem_blocks.dylib
+c00000000532A36D8000000000000C070
+t1395275480
+s49264
+
+N/usr/lib/system/libsystem_c.dylib
+c00000000532A36CA0000000000168D00
+t1395275466
+s1477888
+
+N/usr/lib/system/libsystem_configuration.dylib
+c00000000532A36D70000000000010630
+t1395275479
+s67120
+
+N/usr/lib/system/libsystem_dnssd.dylib
+c00000000532A36D9000000000001DF10
+t1395275481
+s122640
+
+N/usr/lib/system/libsystem_info.dylib
+c00000000532A36CA0000000000075B00
+t1395275466
+s482048
+
+N/usr/lib/system/libsystem_kernel.dylib
+c0000000053580D73000000000007CC70
+t1398279539
+s511088
+
+N/usr/lib/system/libsystem_m.dylib
+c00000000532A36CA00000000000766C0
+t1395275466
+s485056
+
+N/usr/lib/system/libsystem_malloc.dylib
+c00000000532A36D80000000000044DC0
+t1395275480
+s282048
+
+N/usr/lib/system/libsystem_notify.dylib
+c00000000532A36CA0000000000021FA0
+t1395275466
+s139168
+
+N/usr/lib/system/libsystem_platform.dylib
+c00000000532A36D8000000000002D920
+t1395275480
+s186656
+
+N/usr/lib/system/libsystem_pthread.dylib
+c00000000532A36D8000000000001E570
+t1395275480
+s124272
+
+N/usr/lib/system/libsystem_sandbox.dylib
+c00000000532A36D0000000000000CC70
+t1395275472
+s52336
+
+N/usr/lib/system/libunc.dylib
+c00000000532A36D3000000000000C3F0
+t1395275475
+s50160
+
+N/usr/lib/system/libunwind.dylib
+c00000000532A36D900000000000199F0
+t1395275481
+s104944
+
+CBuild AST from /Users/hhe/Desktop/Workspace/WebViewTableView/WebViewTableView/HHAppDelegate.m
+r0
+
+CBuild AST from /Users/hhe/Desktop/Workspace/WebViewTableView/WebViewTableView/HHViewController.m
+r0
+
+CBuild AST from /Users/hhe/Desktop/Workspace/WebViewTableView/WebViewTableView/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies3bc69d3d7f77b941^0245ac3d7f77b941^---0#1#1#--18"Check dependencies36"AB33B0C7-3823-4461-A6D3-1D169BFF4A6F-
+
+CCompileAssetCatalog /Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator/WebViewTableView.app /Users/hhe/Desktop/Workspace/WebViewTableView/WebViewTableView/Images.xcassets
+s427252638.903335
+e427252639.969494
+r1
+xCompileAssetCatalog
+x/Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator/WebViewTableView.app
+x/Users/hhe/Desktop/Workspace/WebViewTableView/WebViewTableView/Images.xcassets
+o/* com.apple.actool.compilation-results */
+o/Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator/WebViewTableView.app/LaunchImage-700-568h@2x.png
+o/Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator/WebViewTableView.app/Assets.car
+o/Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Intermediates/WebViewTableView.build/Debug-iphonesimulator/WebViewTableView.build/assetcatalog_generated_info.plist
+o
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection139"CompileAssetCatalog DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator/WebViewTableView.app WebViewTableView/Images.xcassets139"CompileAssetCatalog DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator/WebViewTableView.app WebViewTableView/Images.xcassets3c4ce79e5b77b941^352af89f5b77b941^-546"/* com.apple.actool.compilation-results *//Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator/WebViewTableView.app/LaunchImage-700-568h@2x.png/Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator/WebViewTableView.app/Assets.car/Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Intermediates/WebViewTableView.build/Debug-iphonesimulator/WebViewTableView.build/assetcatalog_generated_info.plist-0#0#1#-19%DVTDocumentLocation2@86"file:///Users/hhe/Desktop/Workspace/WebViewTableView/WebViewTableView/Images.xcassets/0000000000000000^1382"CompileAssetCatalog DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator/WebViewTableView.app WebViewTableView/Images.xcassets    cd /Users/hhe/Desktop/Workspace/WebViewTableView    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Intermediates/WebViewTableView.build/Debug-iphonesimulator/WebViewTableView.build/assetcatalog_dependencies.txt --output-partial-info-plist /Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Intermediates/WebViewTableView.build/Debug-iphonesimulator/WebViewTableView.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --platform iphonesimulator --minimum-deployment-target 7.1 --target-device iphone --target-device ipad --compress-pngs --compile /Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator/WebViewTableView.app /Users/hhe/Desktop/Workspace/WebViewTableView/WebViewTableView/Images.xcassets36"34FB87B3-B79B-4E9A-99E6-4F2094C5A49A-
+b87B96F0E-05F2-41EC-9171-996A3A58BE72
+
+CCompileC DerivedData/WebViewTableView/Build/Intermediates/WebViewTableView.build/Debug-iphonesimulator/WebViewTableView.build/Objects-normal/i386/HHAppDelegate.o /Users/hhe/Desktop/Workspace/WebViewTableView/WebViewTableView/HHAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427251975.515297
+e427251975.634694
+r1
+xCompileC
+xDerivedData/WebViewTableView/Build/Intermediates/WebViewTableView.build/Debug-iphonesimulator/WebViewTableView.build/Objects-normal/i386/HHAppDelegate.o
+x/Users/hhe/Desktop/Workspace/WebViewTableView/WebViewTableView/HHAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/hhe/Desktop/Workspace/WebViewTableView/WebViewTableView/HHAppDelegate.m
+d/Users/hhe/Desktop/Workspace/WebViewTableView/WebViewTableView/HHAppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/hhe/Desktop/Workspace/WebViewTableView/WebViewTableView/HHAppDelegate.m262"CompileC DerivedData/WebViewTableView/Build/Intermediates/WebViewTableView.build/Debug-iphonesimulator/WebViewTableView.build/Objects-normal/i386/HHAppDelegate.o WebViewTableView/HHAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerf70184075977b941^c47ba2075977b941^---0#0#1#-19%DVTDocumentLocation2@85"file:///Users/hhe/Desktop/Workspace/WebViewTableView/WebViewTableView/HHAppDelegate.m0000000000000000^4399"CompileC DerivedData/WebViewTableView/Build/Intermediates/WebViewTableView.build/Debug-iphonesimulator/WebViewTableView.build/Objects-normal/i386/HHAppDelegate.o WebViewTableView/HHAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/hhe/Desktop/Workspace/WebViewTableView    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Intermediates/WebViewTableView.build/Debug-iphonesimulator/WebViewTableView.build/WebViewTableView-generated-files.hmap -I/Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Intermediates/WebViewTableView.build/Debug-iphonesimulator/WebViewTableView.build/WebViewTableView-own-target-headers.hmap -I/Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Intermediates/WebViewTableView.build/Debug-iphonesimulator/WebViewTableView.build/WebViewTableView-all-target-headers.hmap -iquote /Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Intermediates/WebViewTableView.build/Debug-iphonesimulator/WebViewTableView.build/WebViewTableView-project-headers.hmap -I/Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Intermediates/WebViewTableView.build/Debug-iphonesimulator/WebViewTableView.build/DerivedSources/i386 -I/Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Intermediates/WebViewTableView.build/Debug-iphonesimulator/WebViewTableView.build/DerivedSources -F/Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator -include /Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Intermediates/PrecompiledHeaders/WebViewTableView-Prefix-hijsypsaoetqgfblfvjsxpwgksqg/WebViewTableView-Prefix.pch -MMD -MT dependencies -MF /Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Intermediates/WebViewTableView.build/Debug-iphonesimulator/WebViewTableView.build/Objects-normal/i386/HHAppDelegate.d --serialize-diagnostics /Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Intermediates/WebViewTableView.build/Debug-iphonesimulator/WebViewTableView.build/Objects-normal/i386/HHAppDelegate.dia -c /Users/hhe/Desktop/Workspace/WebViewTableView/WebViewTableView/HHAppDelegate.m -o /Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Intermediates/WebViewTableView.build/Debug-iphonesimulator/WebViewTableView.build/Objects-normal/i386/HHAppDelegate.o36"4AE41F70-ED15-405E-B2EC-9FB6F6966511-
+b0C364781-AF10-492E-860F-F545F80804F0
+
+CCompileC DerivedData/WebViewTableView/Build/Intermediates/WebViewTableView.build/Debug-iphonesimulator/WebViewTableView.build/Objects-normal/i386/HHViewController.o /Users/hhe/Desktop/Workspace/WebViewTableView/WebViewTableView/HHViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427261738.810393
+e427261739.285574
+r1
+xCompileC
+xDerivedData/WebViewTableView/Build/Intermediates/WebViewTableView.build/Debug-iphonesimulator/WebViewTableView.build/Objects-normal/i386/HHViewController.o
+x/Users/hhe/Desktop/Workspace/WebViewTableView/WebViewTableView/HHViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/hhe/Desktop/Workspace/WebViewTableView/WebViewTableView/HHViewController.m
+d/Users/hhe/Desktop/Workspace/WebViewTableView/WebViewTableView/HHViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/hhe/Desktop/Workspace/WebViewTableView/WebViewTableView/HHViewController.m268"CompileC DerivedData/WebViewTableView/Build/Intermediates/WebViewTableView.build/Debug-iphonesimulator/WebViewTableView.build/Objects-normal/i386/HHViewController.o WebViewTableView/HHViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler8291cf2a7f77b941^191c492b7f77b941^---0#0#1#-19%DVTDocumentLocation2@88"file:///Users/hhe/Desktop/Workspace/WebViewTableView/WebViewTableView/HHViewController.m0000000000000000^4417"CompileC DerivedData/WebViewTableView/Build/Intermediates/WebViewTableView.build/Debug-iphonesimulator/WebViewTableView.build/Objects-normal/i386/HHViewController.o WebViewTableView/HHViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/hhe/Desktop/Workspace/WebViewTableView    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Intermediates/WebViewTableView.build/Debug-iphonesimulator/WebViewTableView.build/WebViewTableView-generated-files.hmap -I/Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Intermediates/WebViewTableView.build/Debug-iphonesimulator/WebViewTableView.build/WebViewTableView-own-target-headers.hmap -I/Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Intermediates/WebViewTableView.build/Debug-iphonesimulator/WebViewTableView.build/WebViewTableView-all-target-headers.hmap -iquote /Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Intermediates/WebViewTableView.build/Debug-iphonesimulator/WebViewTableView.build/WebViewTableView-project-headers.hmap -I/Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Intermediates/WebViewTableView.build/Debug-iphonesimulator/WebViewTableView.build/DerivedSources/i386 -I/Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Intermediates/WebViewTableView.build/Debug-iphonesimulator/WebViewTableView.build/DerivedSources -F/Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator -include /Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Intermediates/PrecompiledHeaders/WebViewTableView-Prefix-hijsypsaoetqgfblfvjsxpwgksqg/WebViewTableView-Prefix.pch -MMD -MT dependencies -MF /Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Intermediates/WebViewTableView.build/Debug-iphonesimulator/WebViewTableView.build/Objects-normal/i386/HHViewController.d --serialize-diagnostics /Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Intermediates/WebViewTableView.build/Debug-iphonesimulator/WebViewTableView.build/Objects-normal/i386/HHViewController.dia -c /Users/hhe/Desktop/Workspace/WebViewTableView/WebViewTableView/HHViewController.m -o /Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Intermediates/WebViewTableView.build/Debug-iphonesimulator/WebViewTableView.build/Objects-normal/i386/HHViewController.o36"4A16347B-1EA6-40FB-83F7-46F3F63FC1FE-
+bBF2591A2-C6BC-4703-8B82-E4D155E497B2
+
+CCompileC DerivedData/WebViewTableView/Build/Intermediates/WebViewTableView.build/Debug-iphonesimulator/WebViewTableView.build/Objects-normal/i386/main.o /Users/hhe/Desktop/Workspace/WebViewTableView/WebViewTableView/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427251975.515490
+e427251975.630719
+r1
+xCompileC
+xDerivedData/WebViewTableView/Build/Intermediates/WebViewTableView.build/Debug-iphonesimulator/WebViewTableView.build/Objects-normal/i386/main.o
+x/Users/hhe/Desktop/Workspace/WebViewTableView/WebViewTableView/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/hhe/Desktop/Workspace/WebViewTableView/WebViewTableView/main.m
+d/Users/hhe/Desktop/Workspace/WebViewTableView/WebViewTableView/HHAppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/hhe/Desktop/Workspace/WebViewTableView/WebViewTableView/main.m244"CompileC DerivedData/WebViewTableView/Build/Intermediates/WebViewTableView.build/Debug-iphonesimulator/WebViewTableView.build/Objects-normal/i386/main.o WebViewTableView/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler130f84075977b941^a777a1075977b941^---0#0#1#-19%DVTDocumentLocation2@76"file:///Users/hhe/Desktop/Workspace/WebViewTableView/WebViewTableView/main.m0000000000000000^4345"CompileC DerivedData/WebViewTableView/Build/Intermediates/WebViewTableView.build/Debug-iphonesimulator/WebViewTableView.build/Objects-normal/i386/main.o WebViewTableView/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/hhe/Desktop/Workspace/WebViewTableView    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Intermediates/WebViewTableView.build/Debug-iphonesimulator/WebViewTableView.build/WebViewTableView-generated-files.hmap -I/Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Intermediates/WebViewTableView.build/Debug-iphonesimulator/WebViewTableView.build/WebViewTableView-own-target-headers.hmap -I/Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Intermediates/WebViewTableView.build/Debug-iphonesimulator/WebViewTableView.build/WebViewTableView-all-target-headers.hmap -iquote /Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Intermediates/WebViewTableView.build/Debug-iphonesimulator/WebViewTableView.build/WebViewTableView-project-headers.hmap -I/Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Intermediates/WebViewTableView.build/Debug-iphonesimulator/WebViewTableView.build/DerivedSources/i386 -I/Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Intermediates/WebViewTableView.build/Debug-iphonesimulator/WebViewTableView.build/DerivedSources -F/Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator -include /Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Intermediates/PrecompiledHeaders/WebViewTableView-Prefix-hijsypsaoetqgfblfvjsxpwgksqg/WebViewTableView-Prefix.pch -MMD -MT dependencies -MF /Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Intermediates/WebViewTableView.build/Debug-iphonesimulator/WebViewTableView.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Intermediates/WebViewTableView.build/Debug-iphonesimulator/WebViewTableView.build/Objects-normal/i386/main.dia -c /Users/hhe/Desktop/Workspace/WebViewTableView/WebViewTableView/main.m -o /Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Intermediates/WebViewTableView.build/Debug-iphonesimulator/WebViewTableView.build/Objects-normal/i386/main.o36"69084E68-2F27-4848-BBF8-8A62326168A5-
+b0C364781-AF10-492E-860F-F545F80804F0
+
+CCompileStoryboard /Users/hhe/Desktop/Workspace/WebViewTableView/WebViewTableView/Base.lproj/Main_iPad.storyboard
+s427251975.833954
+e427251977.351529
+r1
+xCompileStoryboard
+x/Users/hhe/Desktop/Workspace/WebViewTableView/WebViewTableView/Base.lproj/Main_iPad.storyboard
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"CompileStoryboard WebViewTableView/Base.lproj/Main_iPad.storyboard66"CompileStoryboard WebViewTableView/Base.lproj/Main_iPad.storyboard6093d5075977b941^431d5a095977b941^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/hhe/Desktop/Workspace/WebViewTableView/WebViewTableView/Base.lproj/Main_iPad.storyboard0000000000000000^931"CompileStoryboard WebViewTableView/Base.lproj/Main_iPad.storyboard    cd /Users/hhe/Desktop/Workspace/WebViewTableView    export IBSC_MINIMUM_COMPATIBILITY_VERSION=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.1 --output-format human-readable-text --compile /Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator/WebViewTableView.app/Base.lproj/Main_iPad.storyboardc /Users/hhe/Desktop/Workspace/WebViewTableView/WebViewTableView/Base.lproj/Main_iPad.storyboard36"FC2C96DF-E945-4863-9516-F52F62267F47-
+b0C364781-AF10-492E-860F-F545F80804F0
+
+CCompileStoryboard /Users/hhe/Desktop/Workspace/WebViewTableView/WebViewTableView/Base.lproj/Main_iPhone.storyboard
+s427253192.755667
+e427253193.209265
+r1
+xCompileStoryboard
+x/Users/hhe/Desktop/Workspace/WebViewTableView/WebViewTableView/Base.lproj/Main_iPhone.storyboard
+onwi_state: registration failed (1000000)
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"CompileStoryboard WebViewTableView/Base.lproj/Main_iPhone.storyboard68"CompileStoryboard WebViewTableView/Base.lproj/Main_iPhone.storyboard897ec1c85d77b941^c99235c95d77b941^-41"nwi_state: registration failed (1000000)-0#0#1#-19%DVTDocumentLocation2@103"file:///Users/hhe/Desktop/Workspace/WebViewTableView/WebViewTableView/Base.lproj/Main_iPhone.storyboard0000000000000000^937"CompileStoryboard WebViewTableView/Base.lproj/Main_iPhone.storyboard    cd /Users/hhe/Desktop/Workspace/WebViewTableView    export IBSC_MINIMUM_COMPATIBILITY_VERSION=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.1 --output-format human-readable-text --compile /Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator/WebViewTableView.app/Base.lproj/Main_iPhone.storyboardc /Users/hhe/Desktop/Workspace/WebViewTableView/WebViewTableView/Base.lproj/Main_iPhone.storyboard36"5E9EABD6-D431-4AA4-AE34-226080B67A02-
+b32804A60-63E6-4B37-805F-EBC8C1BC920F
+
+CCopyStringsFile /Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator/WebViewTableView.app/en.lproj/InfoPlist.strings WebViewTableView/en.lproj/InfoPlist.strings
+s427251975.834337
+e427251975.836424
+r1
+xCopyStringsFile
+x/Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator/WebViewTableView.app/en.lproj/InfoPlist.strings
+xWebViewTableView/en.lproj/InfoPlist.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Copy WebViewTableView/en.lproj/InfoPlist.strings173"CopyStringsFile DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator/WebViewTableView.app/en.lproj/InfoPlist.strings WebViewTableView/en.lproj/InfoPlist.stringsc6a6d5075977b941^9b20d6075977b941^---0#0#1#-19%DVTDocumentLocation2@96"file:///Users/hhe/Desktop/Workspace/WebViewTableView/WebViewTableView/en.lproj/InfoPlist.strings0000000000000000^701"CopyStringsFile DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator/WebViewTableView.app/en.lproj/InfoPlist.strings WebViewTableView/en.lproj/InfoPlist.strings    cd /Users/hhe/Desktop/Workspace/WebViewTableView    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator/WebViewTableView.app/en.lproj -- WebViewTableView/en.lproj/InfoPlist.strings36"C4955C6D-A1BE-4063-99B6-9683CF2995A1-
+b0C364781-AF10-492E-860F-F545F80804F0
+
+CCpResource WebViewTableView/default_template.html DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator/WebViewTableView.app/default_template.html
+s427254607.881732
+e427254607.884292
+r1
+xCpResource
+xWebViewTableView/default_template.html
+xDerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator/WebViewTableView.app/default_template.html
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Copy DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator/WebViewTableView.app/default_template.html158"CpResource WebViewTableView/default_template.html DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator/WebViewTableView.app/default_template.html10cce14f6377b941^ae61e24f6377b941^---0#0#1#-19%DVTDocumentLocation2@161"file:///Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator/WebViewTableView.app/default_template.html0034fcb9deffdf42^737"CpResource WebViewTableView/default_template.html DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator/WebViewTableView.app/default_template.html    cd /Users/hhe/Desktop/Workspace/WebViewTableView    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/hhe/Desktop/Workspace/WebViewTableView/WebViewTableView/default_template.html /Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator/WebViewTableView.app36"B8AFC872-698C-4ACB-A050-D97EB5D9A24E-
+b1155394D-9184-43FA-8DB9-F9484D8D32D1
+
+CGenerateDSYMFile /Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator/WebViewTableView.app.dSYM /Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator/WebViewTableView.app/WebViewTableView
+s427261739.413301
+e427261739.451981
+r1
+xGenerateDSYMFile
+x/Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator/WebViewTableView.app.dSYM
+x/Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator/WebViewTableView.app/WebViewTableView
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection146"Generate /Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator/WebViewTableView.app.dSYM212"GenerateDSYMFile DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator/WebViewTableView.app.dSYM DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator/WebViewTableView.app/WebViewTableView73d8692b7f77b941^39b5732b7f77b941^---0#0#1#-19%DVTDocumentLocation2@145"file:///Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator/WebViewTableView.app.dSYM/0000000000000000^852"GenerateDSYMFile DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator/WebViewTableView.app.dSYM DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator/WebViewTableView.app/WebViewTableView    cd /Users/hhe/Desktop/Workspace/WebViewTableView    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator/WebViewTableView.app/WebViewTableView -o /Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator/WebViewTableView.app.dSYM36"9587E103-EDDF-4BFB-B518-82F012F11256-
+bBF2591A2-C6BC-4703-8B82-E4D155E497B2
+
+CLd /Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator/WebViewTableView.app/WebViewTableView normal i386
+s427261739.287937
+e427261739.411287
+r1
+xLd
+x/Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator/WebViewTableView.app/WebViewTableView
+xnormal
+xi386
+d/Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Intermediates/WebViewTableView.build/Debug-iphonesimulator/WebViewTableView.build/Objects-normal/i386/WebViewTableView.LinkFileList
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/crt1.o
+d/Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Intermediates/WebViewTableView.build/Debug-iphonesimulator/WebViewTableView.build/Objects-normal/i386/HHViewController.o
+d/Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Intermediates/WebViewTableView.build/Debug-iphonesimulator/WebViewTableView.build/Objects-normal/i386/HHAppDelegate.o
+d/Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Intermediates/WebViewTableView.build/Debug-iphonesimulator/WebViewTableView.build/Objects-normal/i386/main.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_override.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcache_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcorecrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcopyfile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdyld_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libmacho_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libnotify_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libremovefile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libunwind_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_asl.dylib
+d/usr/lib/libSystem.B.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/host/libdyld.dylib
+d/usr/lib/system/libcache.dylib
+d/usr/lib/system/libcommonCrypto.dylib
+d/usr/lib/system/libcompiler_rt.dylib
+d/usr/lib/system/libcopyfile.dylib
+d/usr/lib/system/libcorecrypto.dylib
+d/usr/lib/system/libkeymgr.dylib
+d/usr/lib/system/liblaunch.dylib
+d/usr/lib/system/libmacho.dylib
+d/usr/lib/system/libquarantine.dylib
+d/usr/lib/system/libremovefile.dylib
+d/usr/lib/system/libsystem_asl.dylib
+d/usr/lib/system/libsystem_blocks.dylib
+d/usr/lib/system/libsystem_c.dylib
+d/usr/lib/system/libsystem_configuration.dylib
+d/usr/lib/system/libsystem_dnssd.dylib
+d/usr/lib/system/libsystem_info.dylib
+d/usr/lib/system/libsystem_kernel.dylib
+d/usr/lib/system/libsystem_m.dylib
+d/usr/lib/system/libsystem_malloc.dylib
+d/usr/lib/system/libsystem_notify.dylib
+d/usr/lib/system/libsystem_platform.dylib
+d/usr/lib/system/libsystem_pthread.dylib
+d/usr/lib/system/libsystem_sandbox.dylib
+d/usr/lib/system/libunc.dylib
+d/usr/lib/system/libunwind.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection154"Link /Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator/WebViewTableView.app/WebViewTableView118"Ld DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator/WebViewTableView.app/WebViewTableView normal i38644c4492b7f77b941^d34a692b7f77b941^---0#0#1#--1695"Ld DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator/WebViewTableView.app/WebViewTableView normal i386    cd /Users/hhe/Desktop/Workspace/WebViewTableView    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator -F/Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator -filelist /Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Intermediates/WebViewTableView.build/Debug-iphonesimulator/WebViewTableView.build/Objects-normal/i386/WebViewTableView.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=7.1 -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Intermediates/WebViewTableView.build/Debug-iphonesimulator/WebViewTableView.build/Objects-normal/i386/WebViewTableView_dependency_info.dat -o /Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator/WebViewTableView.app/WebViewTableView36"1C5D2938-1D8C-46D2-8B64-AB59B54DC88C-
+bBF2591A2-C6BC-4703-8B82-E4D155E497B2
+
+CProcessInfoPlistFile /Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator/WebViewTableView.app/Info.plist /Users/hhe/Desktop/Workspace/WebViewTableView/WebViewTableView/WebViewTableView-Info.plist
+s427252639.969997
+e427252640.001688
+r1
+xProcessInfoPlistFile
+x/Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator/WebViewTableView.app/Info.plist
+x/Users/hhe/Desktop/Workspace/WebViewTableView/WebViewTableView/WebViewTableView-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Process /Users/hhe/Desktop/Workspace/WebViewTableView/WebViewTableView/WebViewTableView-Info.plist163"ProcessInfoPlistFile DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator/WebViewTableView.app/Info.plist WebViewTableView/WebViewTableView-Info.plistcd5cf89f5b77b941^ed2c02a05b77b941^---0#0#1#-19%DVTDocumentLocation2@97"file:///Users/hhe/Desktop/Workspace/WebViewTableView/WebViewTableView/WebViewTableView-Info.plist0000000000000000^1114"ProcessInfoPlistFile DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator/WebViewTableView.app/Info.plist WebViewTableView/WebViewTableView-Info.plist    cd /Users/hhe/Desktop/Workspace/WebViewTableView    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/hhe/Desktop/Workspace/WebViewTableView/WebViewTableView/WebViewTableView-Info.plist -genpkginfo /Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator/WebViewTableView.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -additionalcontentfile /Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Intermediates/WebViewTableView.build/Debug-iphonesimulator/WebViewTableView.build/assetcatalog_generated_info.plist -o /Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator/WebViewTableView.app/Info.plist36"5D6E3939-3156-43FB-B75C-2D5629EEAC1B-
+b87B96F0E-05F2-41EC-9171-996A3A58BE72
+
+CProcessPCH /Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Intermediates/PrecompiledHeaders/WebViewTableView-Prefix-hijsypsaoetqgfblfvjsxpwgksqg/WebViewTableView-Prefix.pch.pch WebViewTableView/WebViewTableView-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427251972.683709
+e427251974.057502
+r1
+xProcessPCH
+x/Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Intermediates/PrecompiledHeaders/WebViewTableView-Prefix-hijsypsaoetqgfblfvjsxpwgksqg/WebViewTableView-Prefix.pch.pch
+xWebViewTableView/WebViewTableView-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/hhe/Desktop/Workspace/WebViewTableView/WebViewTableView/WebViewTableView-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Precompile WebViewTableView/WebViewTableView-Prefix.pch276"ProcessPCH DerivedData/WebViewTableView/Build/Intermediates/PrecompiledHeaders/WebViewTableView-Prefix-hijsypsaoetqgfblfvjsxpwgksqg/WebViewTableView-Prefix.pch.pch WebViewTableView/WebViewTableView-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerfc00b0045977b941^cfba0e065977b941^---0#0#1#-19%DVTDocumentLocation2@97"file:///Users/hhe/Desktop/Workspace/WebViewTableView/WebViewTableView/WebViewTableView-Prefix.pch0000000000000000^4224"ProcessPCH DerivedData/WebViewTableView/Build/Intermediates/PrecompiledHeaders/WebViewTableView-Prefix-hijsypsaoetqgfblfvjsxpwgksqg/WebViewTableView-Prefix.pch.pch WebViewTableView/WebViewTableView-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/hhe/Desktop/Workspace/WebViewTableView    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Intermediates/WebViewTableView.build/Debug-iphonesimulator/WebViewTableView.build/WebViewTableView-generated-files.hmap -I/Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Intermediates/WebViewTableView.build/Debug-iphonesimulator/WebViewTableView.build/WebViewTableView-own-target-headers.hmap -I/Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Intermediates/WebViewTableView.build/Debug-iphonesimulator/WebViewTableView.build/WebViewTableView-all-target-headers.hmap -iquote /Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Intermediates/WebViewTableView.build/Debug-iphonesimulator/WebViewTableView.build/WebViewTableView-project-headers.hmap -I/Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Intermediates/WebViewTableView.build/Debug-iphonesimulator/WebViewTableView.build/DerivedSources/i386 -I/Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Intermediates/WebViewTableView.build/Debug-iphonesimulator/WebViewTableView.build/DerivedSources -F/Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator --serialize-diagnostics /Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Intermediates/PrecompiledHeaders/WebViewTableView-Prefix-hijsypsaoetqgfblfvjsxpwgksqg/WebViewTableView-Prefix.pch.dia -MMD -MT dependencies -MF /Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Intermediates/PrecompiledHeaders/WebViewTableView-Prefix-hijsypsaoetqgfblfvjsxpwgksqg/WebViewTableView-Prefix.pch.d -c /Users/hhe/Desktop/Workspace/WebViewTableView/WebViewTableView/WebViewTableView-Prefix.pch -o /Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Intermediates/PrecompiledHeaders/WebViewTableView-Prefix-hijsypsaoetqgfblfvjsxpwgksqg/WebViewTableView-Prefix.pch.pch36"D18436E8-B681-4254-80FF-2FBDCAE41E71-
+b83BF5414-209F-48A9-871A-9962C8E3F195
+
+CProcessPCH /Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Index/PrecompiledHeaders/WebViewTableView-Prefix-diejkqhxrordspcraevyinlakbcx_ast/WebViewTableView-Prefix.pch.pch WebViewTableView/WebViewTableView-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CTouch /Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator/WebViewTableView.app
+s427253193.224514
+e427253193.227655
+r1
+xTouch
+x/Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator/WebViewTableView.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection138"Touch /Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator/WebViewTableView.app92"Touch DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator/WebViewTableView.app3c8439c95d77b941^41483ac95d77b941^---0#0#1#--496"Touch DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator/WebViewTableView.app    cd /Users/hhe/Desktop/Workspace/WebViewTableView    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/hhe/Desktop/Workspace/WebViewTableView/DerivedData/WebViewTableView/Build/Products/Debug-iphonesimulator/WebViewTableView.app36"9BC67281-43EA-4AB1-8613-73D8CBB1E0BD-
+b32804A60-63E6-4B37-805F-EBC8C1BC920F
+

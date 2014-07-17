@@ -1,0 +1,2026 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        {{head_loaders}}
+<style>#__pulse_source_subscribe {
+    display: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+    width: 1.8em;
+    height: 1.8em;
+    box-sizing: border-box;
+}
+
+#__pulse_content{
+    line-height: 1.5em;
+    overflow-x: hidden;
+}
+
+#__pulse_content,
+#__pulse_content p,
+#__pulse_content ul,
+#__pulse_content ol {
+    color: rgba(113, 113, 113, 1);
+}
+
+#__pulse_content p,
+#__pulse_content ul,
+#__pulse_content ol {
+    margin: 0 0 1.75em 0;
+    padding: 0;
+}
+
+#__pulse_content h1,
+#__pulse_content h2,
+#__pulse_content h3,
+#__pulse_content h4{
+    font-size: 1em;
+    line-height: 1.15em;
+    margin: 1em 0 1.25em 0;
+}            
+
+#__pulse_content, 
+#__pulse_read_more {
+    font-family: {{content_font_family}};
+    word-wrap: break-word;
+}
+
+body.__pulse_dark #__pulse_content,
+body.__pulse_dark #__pulse_content p,
+body.__pulse_dark #__pulse_content ul,
+body.__pulse_dark #__pulse_content ol {
+    color: #eeeeee !important;
+}
+
+#__pulse_content ul,
+#__pulse_content ol {
+    padding: 0 0 0 2em;
+}
+
+    #__pulse_content ul li,
+    #__pulse_content ol li{
+        margin: 0 0 0.75em 0;
+    }
+
+#__pulse_content ul{
+    list-style-type: disc;
+}
+
+#__pulse_content blockquote{
+    margin: 2em 1.5em;
+    padding: 0 0 0 0.75em;
+    background-color: transparent !important;
+    border-left: 2px solid #ccc; 
+}
+
+    #__pulse_content blockquote > *{
+        font-size: 0.925em;
+    }
+
+#__pulse_content pre code {
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 98% !important;
+    padding: 10px;
+    border: 1px solid rgba(170, 170, 170, 1);
+    word-wrap: break-word;
+}
+            
+#__pulse_content pre {
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 98% !important;
+    padding: 10px;
+    border: 1px solid rgba(170, 170, 170, 1);
+    word-wrap: break-word;
+}
+
+#__pulse_content a {
+    color: rgba(55, 156, 208, 1) !important;
+    word-wrap: break-word;
+}
+
+#__pulse_content img,
+#__pulse_content audio {
+    margin: 0 auto 1em auto;
+    padding: 0;
+    display:block;
+    border: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#__pulse_content audio{
+    width: 98% !important;
+}
+
+#__pulse_content img{
+    max-width: 100%;
+    height:auto; 
+    background-color: #FFF;
+    text-align: center;
+}
+
+body.__pulse_dark #__pulse_content img{
+    background-color: #242424 !important;
+}
+
+img#__pulse_android_video_cover{
+    display: block;
+    clear: both;
+}
+
+#__pulse_content iframe {
+    margin: 0 0 1em 0;
+    width: 100%;
+    overflow: hidden;
+    border: none;
+    {{resource_modifiers}}
+}
+
+#__pulse_content embed,
+#__pulse_content object,
+#__pulse_content video {
+    display: block;
+    margin: 0 0 1em 0;
+    width: 100% !important;
+    overflow: hidden;
+    {{resource_modifiers}}
+} 
+
+#__pulse_content div {
+    width: 100%;
+    height: auto;
+}
+
+#__pulse_content table {
+    table-layout: fixed;
+    width: 100% !important;
+}
+
+#__pulse_content th, 
+#__pulse_content tr,
+#__pulse_content td {
+    font-size: 75%;
+}
+.__pulse_gray_button {
+    display: block;
+    margin: 2em auto 0 auto;
+    padding: 0.4em 0;
+    font-size: 1.1em;
+    padding: 1em 0;
+    background: #e6e6e6;
+    color: #666;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #fff;
+    text-align: center;
+    border: 1px solid #bcbcbc;
+    box-shadow: inset 0 1px 0 #fff;
+    border-radius: 3px;
+    outline: 0;
+}
+
+.__pulse_gray_button.flat {
+    text-shadow: none;
+    text-align: center;
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+.__pulse_gray_button:visited{
+    color: #666;
+}
+
+.__pulse_embed_outer_container {
+    margin: 0 auto;
+}
+
+.__pulse_embed_outer_container.loaded {
+    opacity: 1 !important;
+}
+
+.__pulse_embed_container {
+    position: relative;
+    margin: 0 0 1em 0;
+    height: 0;
+    overflow: hidden;
+}
+
+.__pulse_reflow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    -webkit-transition: opacity 200ms ease-in;
+    -moz-transition: opacity 200ms ease-in;
+    -o-transition: opacity 200ms ease-in;
+    -ms-transition: opacity 200ms ease-in;    
+    transition: opacity 200ms ease-in;
+}
+
+iframe.__pulse_reflow {
+    height: 100%;
+    opacity: 1;
+}
+
+img.__pulse_reflow.loaded {
+    opacity: 1;
+}
+
+/* async loaded media player overrides */
+#SmartPlayer_0 {
+   margin: 0 0 1em 0;
+}
+
+#SmartPlayer_0 div, #SmartPlayer_0 video {
+    margin: 0;
+    padding: 0;
+    width: auto!important;
+    height: auto!important;
+    background: none;
+}
+
+#relatedPanel_0 {
+    display: none;
+}
+html {
+  background-color: none;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.opaque {
+    opacity: 1 !important;
+}
+
+.show {
+    display: block !important;
+}
+
+.hide {
+    display: none !important;
+}
+
+body {
+    font-size: {{font_size}}px;
+    margin: 0;
+    padding-top: {{body_padding_top}}px;
+    padding-right: 0;
+    padding-bottom: {{body_padding_bottom}}px;
+    padding-left: 0;
+    width:100% !important;
+    height:100%;
+    font-weight: normal;
+    background-color: none;
+    -webkit-text-size-adjust: none;
+}
+
+body.__pulse_dark {
+    background-color: #393939 !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+hr {
+    border: 1pt solid rgba(170, 170, 170, 1);
+}
+/*    Phone  (iPhone)       */
+@media (max-width:541px) {
+    #__pulse_article {
+        padding: 8% 7%;
+    }
+
+    #__pulse_content {
+        font-size: 1.2em;
+    }
+}
+
+/*    Large Display Phone/ Galaxy */
+@media (min-width:541px) and (max-width:621px) {
+    #__pulse_article {
+        padding: 8% 10%;
+    }
+
+    #__pulse_content {
+        font-size: 1.3em; 
+    }
+
+    #__pulse_read_more {
+        width: 80%;
+    }
+}
+
+/*    Tablets  (iPad) */
+@media (min-width:621px) {
+    #__pulse_article {
+        padding: 8% 12%;
+    }
+
+    #__pulse_content {
+        font-size: 1.3em;
+    }
+
+    #__pulse_read_more {
+        width: 65%;
+    }
+}
+
+/*    Phone land */
+@media (min-width:541px) and (-webkit-device-pixel-ratio: 1.5) {
+    #__pulse_article{
+        padding: 8% 12%;
+    }
+
+    #__pulse_content{
+        font-size: 1.2em;
+    }
+}
+
+/*    Hi res phone */
+@media (max-width:721px) and (-webkit-device-pixel-ratio: 2.0){
+    #__pulse_article{
+        padding: 8% 7%;
+    }                
+}
+
+/*    Hi res phone land */
+@media (min-width:721px) and (-webkit-device-pixel-ratio: 2.0){
+    #__pulse_article{
+        padding: 8% 12%;
+    }
+
+    #__pulse_content{
+        font-size: 1.2em;
+    }
+}
+#__pulse_content{
+    font-size: 1.2em;
+    line-height: 1.4em;
+}
+
+#__pulse_comments_container {
+    font-size: 1.2em;
+}
+
+#__pulse_read_more,
+#__pulse_load_comments {
+  width: 100%;
+}
+
+#__pulse_read_more .icon-globe {
+    margin: -0.25em 0.25em 0 0;
+    width: 1.2em;
+    height: 1.2em;
+    vertical-align: middle;
+}
+
+#__pulse_comments_container {
+    font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+    word-wrap: break-word;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+} 
+  
+  #__pulse_social_counts,
+  #__pulse_social_like_pile,
+  #__pulse_compose_container_inner {
+      clear: both;
+  }
+
+    #__pulse_social_counts li {
+        float: left;
+        margin: 0 1.25em 0 0;
+        padding: 0;
+        color: #737373;
+    }
+
+            #__pulse_social_counts li img{
+                margin: 0 0.5em 1em 0;
+                width: 0.95em;
+                height: 0.95em;
+                vertical-align: top;
+            }
+
+    #__pulse_social_like_pile li {
+        display: block;
+        position: relative;
+        float: left;
+        margin: 0 0.5em 1em 0;
+        height: 2.5em;
+        min-width: 2.5em;
+        background-color: #ccc;
+        color: #fff;
+    }
+
+        #__pulse_social_like_pile img {
+            width: auto;
+            height: inherit;
+        }
+
+        #__pulse_social_like_pile #more_like_counts {
+            padding: 0 0.4em;
+            line-height: 2.5em;
+            text-align: center;
+        }
+
+    #__pulse_comments_container input {
+        border-radius: 0;
+        -webkit-appearance: none;
+    }
+
+    #__pulse_comments_container ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+        #__pulse_comments li {
+            position: relative;
+            margin: 0;
+            padding: 1em;
+            width: 100%;
+            border-top: 1px solid #eee;
+            overflow: hidden;
+            opacity: 1;
+            -webkit-transition-duration: 200ms;
+            -webkit-transition-property: opacity;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+
+
+        #__pulse_comments li.fadeout {
+            opacity: 0;
+        }
+
+        #__pulse_comments li:first-child {
+            border-top: none;
+        }
+
+            #__pulse_comments .__pulse_comment_avatar {
+                float: left;
+                margin-right: 0.8em;
+            }
+
+                #__pulse_comments .__pulse_comment_avatar img {
+                    max-width: 100%;
+                    width: 2.5em;
+                    height: 2.5em;
+                    vertical-align: middle;
+                    border: 0;
+                }
+
+                #__pulse_comments .content {
+                    overflow: hidden;
+                }
+
+                    #__pulse_comments .__pulse_comment_fullname {
+                        margin: 0;
+                        font-weight: 400;
+                        color: #3b3b3b;
+                    }
+
+                    #__pulse_comments .message {
+                        margin: 0.4em 0;
+                        padding: 0;
+                        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+                        font-weight: 300;
+                        line-height: 1.4em;
+                        color: #737373;
+                    }
+
+                    #__pulse_comments .date {
+                        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+                        font-weight: 300;
+                        font-size: 0.85em;
+                        color: #a7a7a7;
+                    }
+
+                .__pulse_comment_content {
+                    padding: 0.5em 1em;
+                }
+
+                #__pulse_compose_container {
+                    padding: 1em;
+                    background: #eee;
+                    width: 100%;
+                    border: none;
+                    overflow: auto;
+                    -webkit-box-sizing: border-box;
+                    box-sizing: border-box;
+                }
+
+                    #__pulse_compose_container_inner {
+                        position: relative;
+                        clear: both;
+                    }
+
+                        #__pulse_compose_container input {
+                            -webkit-box-sizing: border-box;
+                            box-sizing: border-box;
+                        }
+
+                        #__pulse_comment_input {
+                            position: relative;
+                            margin: 0;
+                            padding: 0.75em;
+                            width: 100%;
+                            font-size: 1em;
+                            border: none;
+                        }
+
+                        #__pulse_comment_input[type='button'] {
+                            color: #a9a9a9;
+                            text-align: left;
+                            background-color: #fff;
+                        }
+
+                #__pulse_load_comments {
+                    display: none;
+                }
+
+body.__pulse_dark #__pulse_compose_container {
+    background-color: #242424;
+}
+
+    body.__pulse_dark .__pulse_social_count_content {
+        color: #d2d2d2;
+    }
+
+    body.__pulse_dark #more_like_counts {
+        background-color: #393939;
+        color: #a9a9a9;
+    }
+
+    body.__pulse_dark #__pulse_comment_input {
+        background-color: #393939;
+    }
+
+    body.__pulse_dark #__pulse_comment_input,
+    body.__pulse_dark #__pulse_comment_input::-webkit-input-placeholder {
+        color: #a9a9a9;
+    }
+
+    body.__pulse_dark #__pulse_comments li {
+        border-top: 1px solid #5c5c5c;
+    }
+
+    body.__pulse_dark #__pulse_comments li:first-child {
+        border-top: none;
+    }
+
+    body.__pulse_dark #__pulse_comments .__pulse_comment_fullname {
+         color: #eeeeee;
+    }
+
+        body.__pulse_dark #__pulse_comments .message {
+             color: #d2d2d2;
+        }
+        
+        body.__pulse_dark #__pulse_comments .date {
+             color: #a9a9a9;
+        }
+#__pulse_article {
+    padding-top: 0% !important;
+}
+
+.icon-globe {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYxIDY0LjE0MDk0OSwgMjAxMC8xMi8wNy0xMDo1NzowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNS4xIE1hY2ludG9zaCIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpEMDZFRTA1MTJBQzgxMUUzOTYzN0FBMTg1MjhFNDkyMyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpEMDZFRTA1MjJBQzgxMUUzOTYzN0FBMTg1MjhFNDkyMyI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkQwNkVFMDRGMkFDODExRTM5NjM3QUExODUyOEU0OTIzIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkQwNkVFMDUwMkFDODExRTM5NjM3QUExODUyOEU0OTIzIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+bqTw8AAABOFJREFUeNq8mXtsjlccx98+WpdMEVRpJkFQIy5hk0ltdW83CYksGHGrP4qo7lYhyixtaOIS4vqKlQUttrHJshBEkEbEpXFvq6FDurS8MppScf0e+b7LcXrO85z37au/5JO3b59z+T2/c36Xc96onJwcXxgSA5LAKDAQ9AIdwAd8XguqQQm4CI6BIvBcHSg7O9t1ougQFesOMsHXoJ1LO6FoV/IFWAICoBCsB+W2EzqW7RLAHlpkvodyJmnHviUcKyFSCqZz0Cmgia/h0oRjlXBsV4ly2YPNQT6X832KWPY07MW6UCzYGhxpBOV8nONIbm5ua1sFheUOgc99jSdirkNQsrmNgvmNrJysZL6XgumaZT0HDoIacJ6x7GUDlXkEXumWG1ZMNyko3H6V0qEUjAGHQQoYBr4HdzwUeEIlVFkJ2oM2nG8vA7osq6Bkgk5BoVys9F1kg/HgP7ANnAF/guWgC9jP4KuTh+wflMdULlvqUwXWgs+UtrGyoRwpQ0xSJllEC8pyhkscBbLACLBYo+CHUiAuZcYSDtBS3T4IL2WcS5ZJsGJ3WcFMJQjfAFs0Ey9l3t0I7oPLIA/8bLBkOfPwNebip4Z2W9hGDuaZQQVjNI5xz8URxJJncLJ54DaY7ZK7ZzAX/64UC02VZV2hcZgYh1WJmls/tvTGzh7pUuy9s+AFmAumURmx/NfBVijRDJ87aOmAkruTolkyqdKG++iey+TzNHtHlUuMAsUgEVwFfan4OCrajMr2Y4KYJfUf5bCeq5ejua9auSzdMgsLDwE/iVwr1Y0/gB/B36ACTvKYyyv283Gl/0CHnXQyhs4QzJGduEx5nDTeQsHVdKwLtJLYOiPBZHAK3Aq+MBStpqVlSYxmJWySVLAGzAETwTr+v9pCOVFJq6VSCfFR6VRasi324mbGRlniHalM10kcPXQIQ4bYxP8yrt1lxjDJLo/nFcHVgfVO4GMh+EatzG1LflF6/cHYJIrNL8Vbe/S5bzMuLNcDn6/BBjpnvWKh1mKgFoyVu0EZ+4il+gU8MPQZbjGuSInJPAKkap7XOpb7SZYMVjhjwUzQkW//UGmXxpeKY8jSCpZ3O/ehTqocadOGcqboKi2hyDgLwLeaUFVAA4j9ulM3GJZ4mCGfv83jDr0tVDnA+lCWvzjROUOfDoai4jcGa20kcJhiQpWehv0kYuRgcFTzXJyPuyn/6+txhD3msMoIhKjgWJd8LQJ4f8OzZ8r3Mn6+1rQVOhU5rDAKw7BiniGGDnUJ/g80Frxh2J+FcKDnwUpkfRjnDJGyPtE40GSXPsnK9w0sED5V/v+SOv1fKokssS8MK6ovdRp85dJ+tJKlOrGa6qG02wfrlatnkiyNZ3rJTenvCUyJbjKdpb8IQb/S4oOUS6wa6lLv0FQpP7DMAkHn6m2Kc5pQs4lenmxokwXrVZrOxf4QHOYKHWw4T3ixlv3SuH99Bsfwe90spLFW85JiBlhhkT4RuFk4xbk9rz7qWI57KfkPGAA+ipBy43Q3XI7L1USKx3Iv4WEnEtdvKVBOdxPhegVcx9rvpObWwccrjPYNUKyGDuFv6A2rn+eWgghcGgVjZwHH9Hs1tr2jFm4/VbpVCIShWIB9e3GsSptOod7yl7Ng/c737s8QiSwS5J8hqngv4/ozhJe8EWAAC4g2E4p+BloAAAAASUVORK5CYII=);
+}
+
+.__pulse_gray_button,
+.__pulse_gray_button:visited {
+    margin: 2em auto 1em auto;
+    background: #eee;
+    font-weight: 400;
+    color: #838383;
+}
+
+body.__pulse_dark .__pulse_gray_button {
+    background: #777777;
+    color: #dadada;
+}
+
+body.__pulse_dark .icon-globe {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABNNJREFUeNq8mXtszlcYx9/+vHUJnca9YtkmqkaKuCzEpWympgnLIgxxqz9qokqsYnGPxCS2ZWIbr1ATtBhziQhBBJFGXBo21NtmrqkUr9CmdHH9Hvm+cnJ6zu933os+ySft+76/c87zPs95Lue8CcFg0BeFJIIBYBjoBbqANqApP68B90EpuAiOgTPguTpRamqq60IJESrYCeSB8aBlhF8qBIrAGlBuq6BjOXl7sJ0WmRWFcj6OmcU5tnNOT7FRMIeTTgANfLFLA85VyrmjdnFjUEB3vk8Rbs+Gq2sjsWBzcKQelPNxjSNlZWXNbRUUljsABvvqT8RaB6BkYxsFC+pZOVnJAi8FczRuPQf2gmpwnrnsZYzKPAGvdO6GFXNMCoqwX60MuA6Gg8MgEwwB88BtDwWeUglVfgStQDLX28GELstqKNlep6BQLkl6LarBaPAYbADFYD9YBj4Gu5h8dfKI48NSReUWSWMqwS9gkPJskmwoR6oQ45RFFtCCshTTxQkgH3wOftAo2EFKxGIOP4Ovmbp9kF6CXEuWcbBiJ1nBPCUJXwPrNAsvZt39DTwAl8EqsMlgyXLW4Susxc8Mz63jM3IyzwsrmKgJjLsugSBcnsvFZoIbYLpL7Z4CFoI9SrPQUHHrSk3AJDrsStTa2scyGj/0KJdi750FL8B3YBKVEe6/CtZDiUb4u5mWDim1e4CfLZMqydxHd10Wn6nZO6pcYhYoAWngX5BOxUdR0UZUtjsLxDRp/DCH/VydGs199YGL65ZYWLg/WC5qrdQ3fg+WgkPgJoKkiu4V+/m4Mr6Xn4N0MpzBkMuclgK+Bh/RtW0tFPyJgSVvHTFPC6aw/8JfGIpegrtLlPFpfnbCJhkBfgYzwFjwK9+/b6Gc6KRXKO+VEiEXOL+wZAso9wdzoyxtHalN10lrRmh/pgyxie8xr91hxTDJVo/Pb7JrEl31CfyZD+YozzT1W0araL32MTeJZnMk3eQmD2zmheVEz/8arGVw1mkWaiwmasJcuQ0EOUa4agt4aBgz1GJeURIzeAQYofm8xrHcT7LkssPJAlNBO377R8pz2fxSrZmytAL3buQ+1EmlI23aSM4Un0guFBVnNpirSVWFNIDYr3/qJoOLhxjq+ds67jDaIpW/2R/KcpALnTOMaWNoKnYzWWszgcMSE6l0Nuwn0Th8Bo5qPv8KdFTeS/c4wh5z2GWEIlQwy6VeiwTew/DZ/8rr8JHyteGgf8Zhh1EUhRVXGXLoQJfk/1BjwWuG/VmEAHoe7kTWRHHO+AL01QTQty5jMpTXa9kg9FPef0md3rVKokrsjMKK6pc6Dca4PP+lUqVS2E2pFzQ7Yb1y9UySr4lMLymT/v+GJdFNJrP1FynoL1q8N0tnWKqpS51DU4X8gWUVCAdXV1Oe06Sa3xnlGYZn8mG9CtO5OBBBwPzDABvKE16S5bhs7l+fITACXjcLYoJTFguVMMEKi3SLw83CKa7tefVRy3bcS8lboCf4NE7KjdLdcDkuVxOZHu5eyMNOPK7fMqGc7ibC59YP1rL3O6m5dfDxCqNVDIpVMyACsd6wBnhuKYzDpVE4dxZyzoDXw7Z31CLsJ0q3CqEoFAtxbBfOVWEzKCFOP0OksUmQf4ao5L1MTD9DvBFgAHiiN5O1cE7TAAAAAElFTkSuQmCC);
+}
+/* Phone */
+@media (max-width:541px) {
+    #__pulse_article {
+        padding: 4% 6%;
+    }
+
+    #__pulse_comments_container {
+        font-size: 1em;
+    }
+}
+
+/* Large Phone */
+@media (min-width:541px) {
+    #__pulse_article {
+        padding: 5% 7%;
+    }
+
+    #__pulse_comments_container {
+        font-size: 1.1em;
+    }
+}
+
+/* Tablet */
+@media (min-width:721px) {
+    #__pulse_article{
+        padding: 6% 8%;
+    }
+
+    #__pulse_comments_container {
+        font-size: 1.2em;
+    }
+}</style>
+    </head>
+    <body>
+<div id="__pulse_article">
+    <div id="__pulse_content">
+        {{ content }}
+    </div>
+    <a id="__pulse_read_more" class="__pulse_gray_button flat" href="{{ story_url }}">
+        <span class="icon-globe"></span>
+        View on Web
+    </a>
+</div>
+
+<div id="__pulse_comments_container">
+
+    <div id="__pulse_compose_container">
+        <ul id="__pulse_social_counts">
+          <li id="__pulse_like_count_container"></li>
+          <li id="__pulse_comment_count_container"></li>
+        </ul>
+        <ul id="__pulse_social_like_pile"></ul>
+        
+        <div id="__pulse_compose_container_inner">
+            <input id="__pulse_comment_input" type="text" placeholder="Add a comment..." name="comment">
+        </div>
+    </div>
+
+    <div id="__pulse_comments_list_container">
+        <ul id="__pulse_comments"></ul>
+    </div>
+
+    <input type="button" id="__pulse_load_comments" class="__pulse_gray_button flat" value="Load More Comments">
+</div>
+
+
+<script type="text/javascript">var Pulse = {};
+
+Pulse.PostMeta      = {};
+Pulse.PublisherMeta = {};
+Pulse.Settings      = {};
+
+Pulse.Platform      = '{{ platform }}';
+
+Pulse.Templates     = {};
+Pulse.TemplateType  = null;
+
+Pulse.Story         = {};
+Pulse.Story.url     = '{{ story_url }}';
+Pulse.Story.image   = '{{ story_image }}';
+
+try {
+    Pulse.Settings  = '{{ settings }}';
+    Pulse.Settings  = JSON.parse(Pulse.Settings);
+} catch(e){}
+
+Pulse.Format = {
+    abbreviateNumber: function(val, nDecimals) {
+        function enforcePrecision(val, nDecimalDigits) {
+            var pow = Math.pow(10, nDecimalDigits);
+            return +(Math.round(val * pow) / pow).toFixed(nDecimalDigits);
+        }
+        nDecimals = nDecimals !== null ? nDecimals : 1;
+        val = enforcePrecision(val, nDecimals);
+        var str, mod, suffix;
+        suffix = {
+            thousand: "K",
+            million: "M",
+            billion: "B"
+        };
+        if (val < 1e3) {
+            return val;
+        }
+        if (val < 1e6) {
+            mod = enforcePrecision(val / 1e3, nDecimals);
+            str = mod < 1e3 ? mod + suffix.thousand : 1 + suffix.million;
+        } else if (val < 1e9) {
+            mod = enforcePrecision(val / 1e6, nDecimals);
+            str = mod < 1e3 ? mod + suffix.million : 1 + suffix.billion;
+        } else {
+            str = enforcePrecision(val / 1e9, nDecimals) + suffix.billion;
+        }
+        return str;
+    },
+    cleanTags: function(tag) {
+        [].forEach.call(Pulse.DOM.content.getElementsByTagName(tag), function(el) {
+            if (Pulse.DOM.video_array.indexOf(el.nodeName) != -1) {
+                if (Pulse.Platform == "Android" && (el.tagName == "EMBED" || el.tagName == "VIDEO")) {
+                    var image = document.createElement("img"), src = el.src, parent = el.parentNode, child_nodes = el.children, obj_parent;
+                    image.src = "http://pulse.me/static/images/videoplayer_placeholder.png";
+                    image.id = "__pulse_android_video_cover";
+                    if (el.tagName == "EMBED") {
+                        if (parent.tagName == "OBJECT") {
+                            obj_parent = parent.parentNode;
+                            obj_parent.replaceChild(image, parent);
+                        } else {
+                            parent.replaceChild(image, el);
+                        }
+                        image.addEventListener("click", function(e) {
+                            Android.openYouTubeLink(src);
+                            return false;
+                        });
+                    } else if (el.tagName == "VIDEO") {
+                        if (!el.getAttribute("poster")) {
+                            parent.replaceChild(image, el);
+                            image.addEventListener("click", function(e) {
+                                var source = el.getElementsByTagName("source");
+                                if (src.length === 0 && source.length > 0) {
+                                    src = source[0].src;
+                                }
+                                Android.showVideo(src);
+                                return false;
+                            });
+                        } else {
+                            el.addEventListener("click", function(e) {
+                                var source = el.getElementsByTagName("source");
+                                if (src.length === 0 && source.length > 0) {
+                                    src = source[0].src;
+                                }
+                                Android.showVideo(src);
+                                return false;
+                            });
+                        }
+                    }
+                }
+                if (el.nodeName == "IFRAME" && el.src.indexOf("youtube.com")) {
+                    Pulse.Format.Video.youtubeForceHtml5(el);
+                }
+                if (el.height || el.style.height) {
+                    Pulse.Format.Video.changeAspectRatio(el);
+                } else {
+                    el.onload = function() {
+                        Pulse.Format.Video.changeAspectRatio(this);
+                    };
+                }
+            } else {
+                if (el.getAttribute("style")) {
+                    el.setAttribute("style", "");
+                }
+                if (el.getAttribute("align")) {
+                    el.setAttribute("align", "");
+                }
+            }
+            if (el.nodeName == "IMG") {
+                el.onload = function() {
+                    if (this.height < 35 && !Pulse.DOM.hasClass(el)) {
+                        this.style.display = "none";
+                    }
+                };
+                el.onerror = function() {
+                    this.style.display = "none";
+                };
+                Pulse.Format.overrideImageLinks(el);
+            }
+            if (el.nodeName == "A") {
+                el.addEventListener("click", function(e) {
+                    e.stopPropagation();
+                });
+            }
+        });
+    },
+    addReflowWrapper: function(el) {
+        function getNodeIndex(el) {
+            var i = 0, child = el;
+            while ((child = child.previousSibling) !== null) {
+                i++;
+            }
+            return i;
+        }
+        var media_meta = Pulse.Format.getElementRatio(el), clone_parent = el.parentNode.cloneNode(true), node_index = getNodeIndex(el), clone = clone_parent.childNodes[node_index], wrapper = document.createElement("div"), outer_wrap = document.createElement("div"), padding = null, ratio = null, did_reflow = false;
+        var BASE_BOTTOM_PADDING = 100;
+        if (media_meta || el.nodeName == "IFRAME") {
+            if (media_meta.ratio || el.nodeName == "IFRAME") {
+                did_reflow = true;
+                ratio = media_meta.ratio || "0.5625";
+                padding = BASE_BOTTOM_PADDING * ratio;
+                wrapper.style.paddingBottom = padding + "%";
+                wrapper.className = "__pulse_embed_container";
+                outer_wrap.className = "__pulse_embed_outer_container";
+                clone.className = "__pulse_reflow";
+                if (media_meta.width) {
+                    outer_wrap.style.maxWidth = media_meta.width + "px";
+                }
+                if (clone.nodeName == "IMG") {
+                    Pulse.Format.overrideImageLinks(clone);
+                    clone.onload = function(e) {
+                        var wrap_max_width;
+                        if (this.height < 35) {
+                            this.style.display = "none";
+                        } else {
+                            wrap_max_width = this.parentNode.parentNode.style.maxWidth;
+                            if (!wrap_max_width) {
+                                wrap_max_width = this.naturalWidth + "px";
+                            }
+                            this.className += " loaded";
+                        }
+                    };
+                    clone.onerror = function() {
+                        this.parentNode.parentNode.style.display = "none";
+                    };
+                }
+                if (clone.nodeName == "IFRAME") {
+                    if (window.innerWidth <= 480) {
+                        outer_wrap.style.maxWidth = "100%";
+                    } else {
+                        outer_wrap.style.maxWidth = "75%";
+                    }
+                }
+                wrapper.appendChild(clone);
+                outer_wrap.appendChild(wrapper);
+                el.parentNode.replaceChild(outer_wrap, el);
+            }
+        }
+        if (did_reflow === false) {
+            el.onerror = function() {
+                this.style.display = "none";
+            };
+            if (el.nodeName == "IMG") {
+                Pulse.Format.overrideImageLinks(el);
+            }
+        }
+    },
+    escapeHTML: function(str) {
+        var div = document.createElement("div");
+        div.appendChild(document.createTextNode(str));
+        return div.innerHTML;
+    },
+    extend: function(defaults, config) {
+        if (typeof (config === "object")) {
+            for (var key in defaults) {
+                if (config.hasOwnProperty(key)) {
+                    if (!config[key]) {
+                        config[key] = defaults[key];
+                    }
+                } else {
+                    config[key] = defaults[key];
+                }
+            }
+        }
+        return config;
+    },
+    getRelativeTime: function(from) {
+        var times = {
+            year: 315576e5,
+            month: 26298e5,
+            week: 6048e5,
+            day: 864e5,
+            hour: 36e5,
+            min: 6e4
+        };
+        var difference = Date.now() - new Date(from);
+        for (var time in times) {
+            if (difference >= times[time]) {
+                var vagueUnit = Math.floor(difference / times[time]);
+                return vagueUnit + " " + time + (vagueUnit > 1 ? "s" : "") + " ago";
+            }
+        }
+        return "just now";
+    },
+    getSuggestedTextDirection: function(text) {
+        function sanitizeText() {
+            return text.replace(/@\w+/, "");
+        }
+        function countMatches(match) {
+            var matches = text.match(new RegExp(match, "g"));
+            return matches !== null ? matches.length : 0;
+        }
+        function isRTL() {
+            var count_heb = countMatches("[\\u05B0-\\u05F4\\uFB1D-\\uFBF4]");
+            var count_arb = countMatches("[\\u060C-\\u06FE\\uFB50-\\uFEFC]");
+            return (count_heb + count_arb) * 100 / text.length > 20;
+        }
+        return isRTL() ? "rtl" : "ltr";
+    },
+    getElementRatio: function(el) {
+        var height = parseInt(el.getAttribute("height") || 0, 10), width = parseInt(el.getAttribute("width") || 0, 10);
+        if (height && width) {
+            return {
+                ratio: height / width,
+                width: width,
+                height: height
+            };
+        }
+        return false;
+    },
+    hideStoryImage: function() {
+        var content_images = Pulse.DOM.content.getElementsByTagName("img"), story_image = Pulse.Story.image, image_match = null, image_container_char_count = null;
+        function getContainingNode(el) {
+            var node = el;
+            while (node.parentNode.id !== "__pulse_content" && node.parentNode.innerText === "") {
+                node = node.parentNode;
+            }
+            return node;
+        }
+        function hideImageCaption(el) {
+            var caption_tags = [ "caption", "figcaption", "small", "span" ], next_sibling = null;
+            if (!!el) {
+                next_sibling = el.nextSibling;
+                if (next_sibling) {
+                    for (var i = 0, l = caption_tags.length; i < l; i++) {
+                        if (next_sibling.nodeName === caption_tags[i].toUpperCase()) {
+                            next_sibling.className += " __pulse_story_image_caption";
+                            next_sibling.className += " hide";
+                            break;
+                        }
+                    }
+                }
+            }
+            return el;
+        }
+        function getStoryImageMatch(image_array, story_image) {
+            var clean_content_image = null, clean_story_image = null;
+            if (story_image && image_array.length > 0) {
+                clean_story_image = decodeURIComponent(story_image);
+                for (var i = 0, l = image_array.length; i < l; i++) {
+                    clean_content_image = content_images[i].hasAttribute("orig-src") ? content_images[i].getAttribute("orig-src") : content_images[i].src;
+                    clean_content_image = decodeURIComponent(clean_content_image);
+                    clean_content_image = clean_content_image.replace("http://hr-pulsesubscriber.appspot.com/image?link=", "");
+                    if (clean_content_image.indexOf("?") !== -1) {
+                        clean_content_image = clean_content_image.split("?")[0];
+                    }
+                    if (clean_story_image.indexOf(clean_content_image) !== -1) {
+                        return image_array[i];
+                    }
+                }
+            }
+            return false;
+        }
+        if (content_images && story_image) {
+            image_match = getStoryImageMatch(content_images, story_image);
+        }
+        if (image_match) {
+            image_match.className += " __pulse_story_image";
+            image_match.className += " hide";
+            story_image_container = getContainingNode(image_match);
+            story_image_container.className += " __pulse_story_image_container";
+            image_container_char_count = story_image_container.outerHTML.length - image_match.outerHTML.length;
+            if (image_container_char_count < 75) {
+                story_image_container.className += " hide";
+            }
+            hideImageCaption(story_image_container);
+            Pulse.DOM.content = document.getElementById("__pulse_content");
+            return story_image_container;
+        }
+        return false;
+    },
+    showHiddenStoryImage: function() {
+        var story_image = document.getElementsByClassName("__pulse_story_image"), story_image_container = document.getElementsByClassName("__pulse_story_image_container");
+        if (story_image.length) {
+            Pulse.DOM.removeClass(story_image[0], "hide");
+        }
+        if (story_image_container.length) {
+            Pulse.DOM.removeClass(story_image_container[0], "hide");
+        }
+        Pulse.DOM.content = document.getElementById("__pulse_content");
+    },
+    overrideImageLinks: function(el) {
+        var story_url = Pulse.Story.url, parent_link = el.parentNode;
+        if (parent_link.nodeName == "A") {
+            if (parent_link.href == story_url || parent_link.href == decodeURIComponent(el.src.replace("http://hr-pulsesubscriber.appspot.com/image?link=", "")) || parent_link.href == el.src) {
+                parent_link.href = "javascript:void(0);";
+                Pulse.Native.zoomImage(el);
+            }
+        } else {
+            Pulse.Native.zoomImage(el);
+        }
+    },
+    changeFontSize: function(size) {
+        document.body.style.fontSize = size;
+        return false;
+    },
+    changeFont: function(font) {
+        if (Pulse.DOM.header) {
+            Pulse.DOM.header.style.fontFamily = font;
+        }
+        Pulse.DOM.content.style.fontFamily = font;
+        return false;
+    },
+    removeMiscWhiteSpace: function() {
+        var content = document.getElementById("__pulse_content").innerHTML;
+        content = content.replace(/<p[^>]*[>]\s*<\/p>/gi, "");
+        Pulse.DOM.content = document.getElementById("__pulse_content").innerHTML = content;
+        Pulse.DOM.content = document.getElementById("__pulse_content");
+    },
+    resizeBrandWidget: function(height) {
+        Pulse.DOM.brand_widget.style.height = parseInt(height, 10) + "px";
+    },
+    stopAudio: function() {
+        Pulse.DOM.audio = document.getElementsByTagName("audio");
+        if (Pulse.DOM.audio.length !== 0) {
+            for (var i = 0; i < Pulse.DOM.audio.length; i++) {
+                Pulse.DOM.audio[i].pause();
+            }
+        }
+    },
+    supplant: function(template, data) {
+        return template.replace(/\{([^{}]*)\}/g, function(a, b) {
+            var r = data[b];
+            if (r !== "") {
+                return typeof r === "string" || typeof r === "number" ? r : "";
+            }
+        });
+    },
+    trim: function(text) {
+        return text.replace(/^\s+|\s+$/g, "");
+    }
+};
+
+Pulse.Format.Video = {
+    changeAspectRatio: function(el) {
+        var parent = el.parentNode, el_height = el.height || el.style.height, width = Pulse.DOM.content.offsetWidth, ratio;
+        if (el.className == "__pulse_reflow") {
+            return;
+        }
+        if (typeof el_height == "string") {
+            el_height.replace("px", "");
+            el_height = parseInt(el_height, 10);
+        }
+        if (width && width > 0) {
+            ratio = el_height / el.width;
+            el.style = "";
+            el.width = width;
+            el.style.display = "block";
+            if (el.nodeName == "IFRAME") {
+                if (el.src.indexOf("ads/amazon_widget") === -1) {
+                    if (!el.height) {
+                        Pulse.Format.addReflowWrapper(el);
+                    } else {
+                        el.height = ratio * width;
+                    }
+                }
+            }
+        }
+        if (parent.nodeName === "OBJECT") {
+            parent.style = "";
+            parent.width = "100%";
+            parent.height = "auto";
+        }
+    },
+    stopVideos: function() {
+        for (var i = 0, len = Pulse.DOM.video_array.length; i < len; i++) {
+            [].forEach.call(document.querySelectorAll(Pulse.DOM.video_array[i]), function(el) {
+                if (el.tagName == "VIDEO") {
+                    el.pause();
+                } else if (el.tagName == "IFRAME") {
+                    el.src = el.src;
+                    var cloned_element = el.cloneNode(true);
+                    el.parentNode.replaceChild(cloned_element, el);
+                } else {
+                    el.style.display = "none";
+                }
+            });
+        }
+    },
+    youtubeForceHtml5: function(el) {
+        var separator = el.src.indexOf("?") > -1 ? "&" : "?";
+        el.src = el.src + separator + "html5=1";
+    }
+};
+
+Pulse.Native = {
+    adjustDatePosition: function() {
+        var author = Pulse.DOM.story_author;
+        if (author) {
+            if (author.innerHTML.replace(/\s+/g, "") === "") {
+                Pulse.DOM.story_date.style.cssFloat = "left";
+            }
+        }
+    },
+    ajax: function(opts) {
+        console.log("entered Pulse.Native.ajax", opts);
+        if (opts.length !== 0) {
+            Pulse.Native.global_json = opts;
+            if (Pulse.Platform === "iOS") {
+                window.location = "p://performAction/Pulse.Native.handleMessage()";
+            } else if (Pulse.Platform === "Android") {
+                Android.performAction(Pulse.Native.handleMessage());
+            }
+        }
+    },
+    getCumulativeOffsetCoords: function(el) {
+        var curleft = 0, curtop = 0;
+        if (el) {
+            if (el.offsetParent) {
+                do {
+                    curleft += el.offsetLeft;
+                    curtop += el.offsetTop;
+                } while (el = el.offsetParent);
+                return {
+                    x: curleft,
+                    y: curtop
+                };
+            }
+        }
+        return false;
+    },
+    handleMessage: function() {
+        console.log("handle message called");
+        return JSON.stringify(Pulse.Native.global_json);
+    },
+    hideOffPage: function() {
+        Pulse.Format.stopAudio();
+        Pulse.Format.Video.stopVideos();
+    },
+    login: function() {
+        console.log("entered login");
+        if (Pulse.Platform == "iOS") {
+            window.location = "p://performAction/Pulse.Native.prepareLoginMessage()";
+        }
+        if (Pulse.Platform == "Android") {
+            Android.performAction(Pulse.Native.prepareLoginMessage());
+        }
+    },
+    prepareLoginMessage: function() {
+        console.log("entered prepareLoginMessage");
+        var login_options = {
+            message_type: "login",
+            type: "linkedin",
+            callback: "Pulse.Native.linkedinUpdate"
+        };
+        return JSON.stringify(login_options);
+    },
+    linkedinUpdate: function(linkedin_obj) {
+        console.log("entered linkedinUpdate: ", linkedin_obj);
+        Pulse.LinkedIn = linkedin_obj;
+        var queue = Pulse.Comments.Queue, callback, options;
+        if (queue.length) {
+            for (var i = 0, l = queue.length; i < l; i++) {
+                callback = queue[i].callback;
+                options = queue[i].options;
+                callback(options);
+            }
+            Pulse.Comments.Queue = [];
+        }
+    },
+    loadPublisherBranding: function() {},
+    orientationChange: function() {
+        if (Pulse.Platform == "iOS") {
+            var i, j, els;
+            for (i = 0; i < Pulse.DOM.video_array.length; i++) {
+                els = document.querySelectorAll(Pulse.DOM.video_array[i]);
+                for (j = 0; j < els.length; j++) {
+                    Pulse.Format.Video.changeAspectRatio(els[j]);
+                }
+            }
+        }
+    },
+    resizeStoryRequest: function() {
+        if (Pulse.Platform == "iOS") {
+            Pulse.Native.ajax({
+                message_type: "resize_view",
+                type: "story_size",
+                data: {
+                    dimensions: {
+                        width: window.document.body.clientWidth,
+                        height: window.document.body.clientHeight
+                    }
+                }
+            });
+        }
+    },
+    scrollTo: function(element, options) {
+        var elem_map = {
+            comments: document.getElementById("__pulse_comments_container")
+        }, el_meta = {}, coords, callback = false;
+        if (options && typeof options === "object") {
+            if (options.callback) {
+                callback = options.callback;
+            }
+        }
+        if (typeof element === "string") {
+            if (elem_map[element]) {
+                coords = Pulse.Native.getCumulativeOffsetCoords(elem_map[element]);
+                el_meta["width"] = elem_map[element].clientWidth || 0;
+                el_meta["height"] = elem_map[element].clientHeight || 0;
+                el_meta["x"] = coords["x"];
+                el_meta["y"] = coords["y"];
+                if (callback) {
+                    return callback(element, el_meta);
+                }
+                el_meta = JSON.stringify(el_meta);
+                if (Pulse.Platform == "Android") {
+                    return Android.requestScrollOffset(el_meta);
+                }
+                return el_meta;
+            }
+        }
+        if (typeof element === "object") {
+            coords = Pulse.Native.getCumulativeOffsetCoords(element);
+            if (callback) {
+                return callback(element, coords);
+            }
+            coords = JSON.stringify(coords);
+            if (Pulse.Platform == "Android") {
+                return Android.requestScrollOffset(coords);
+            }
+            return coords;
+        }
+        return false;
+    },
+    scrollHeightDidUpdate: function() {
+        if (Pulse.Platform == "iOS") {
+            var response = null;
+            console.log("entered scrollHeightDidUpdate");
+            response = JSON.stringify({
+                dimensions: {
+                    width: window.document.body.clientWidth,
+                    height: window.document.body.clientHeight
+                }
+            });
+            return response;
+        }
+    },
+    showOffPage: function() {
+        for (var i = 0, len = Pulse.DOM.video_array.length; i < len; i++) {
+            [].forEach.call(document.querySelectorAll(Pulse.DOM.video_array[i]), function(el) {
+                el.style.display = "block";
+                if (el.tagName == "IFRAME") {
+                    el.src = el.src;
+                }
+            });
+        }
+    },
+    zoomImage: function(el) {
+        el.addEventListener("click", function(e) {
+            var urls = [], src = el.src;
+            e.stopPropagation();
+            if (src.indexOf("pulsesubscriber") == -1) {
+                urls.push(src);
+            } else {
+                query_strings = src.split("?")[1].split("&");
+                for (var i = 0, len = query_strings.length; i < len; i++) {
+                    if (query_strings[i].indexOf("link=") != -1) {
+                        urls.push(decodeURIComponent(query_strings[i].split("link=")[1]));
+                    }
+                }
+                urls.push(src);
+            }
+            if (Pulse.Platform == "iOS") {
+                el.id = "pulse-selected-image";
+                window.location = "p://pulse/showImage/" + encodeURIComponent(urls.toString());
+            } else if (Pulse.Platform == "Android") {
+                Android.showImage(urls);
+            }
+        });
+    }
+};
+
+Pulse.Native.global_json = {};
+
+Pulse.Native.iOS = {};
+
+Pulse.Native.Android = {};
+
+Pulse.Native.iOS.removeSelectImage = function() {
+    obj = document.getElementById("pulse-selected-image");
+    obj.id = "";
+};
+
+Pulse.Native.iOS.getSelectedImageFrame = function() {
+    var curleft = curtop = 0, return_obj = {}, obj = document.getElementById("pulse-selected-image");
+    return_obj.height = obj.clientHeight;
+    return_obj.width = obj.clientWidth;
+    curleft = obj.offsetLeft, curtop = obj.offsetTop, parent = obj.offsetParent;
+    if (parent != obj) {
+        while (parent) {
+            curleft += parent.offsetLeft;
+            curtop += parent.offsetTop;
+            parent = parent.offsetParent;
+        }
+    }
+    return_obj.left = curleft;
+    return_obj.top = curtop;
+    return JSON.stringify(return_obj);
+};
+
+Pulse.Native.Android.toggleDark = function(is_dark) {
+    if (is_dark) {
+        document.body.className = "__pulse_dark";
+    } else {
+        document.body.className = "";
+    }
+};
+
+Pulse.Native.disableSourceSubscribe = function() {
+    if (Pulse.DOM.source_subscribe) {
+        Pulse.DOM.removeClass(Pulse.DOM.source_subscribe, "show");
+    }
+};
+
+Pulse.Native.enableSourceSubscribe = function() {
+    if (Pulse.DOM.source_subscribe) {
+        Pulse.DOM.addClass(Pulse.DOM.source_subscribe, "show");
+        Pulse.DOM.source_subscribe.addEventListener("click", function() {
+            if (Pulse.Platform == "iOS") {
+                window.location = "p://pulse/subscribeCurrentSource/";
+            } else if (Pulse.Platform == "Android") {
+                Android.subscribeCurrentSource();
+            }
+            return true;
+        });
+    }
+};
+
+Pulse.DOM = {
+    header: document.getElementById("__pulse_header"),
+    publisher_icon_container: document.getElementById("__pulse_publisher_icon_container"),
+    story_publisher: document.getElementById("__pulse_story_publisher"),
+    story_date: document.getElementById("__pulse_story_date"),
+    story_link: document.getElementById("__pulse_story_title_link"),
+    story_title: document.getElementById("__pulse_story_title"),
+    story_author: document.getElementById("__pulse_story_author"),
+    story_image: document.getElementsByClassName("__pulse_story_image"),
+    story_image_container: document.getElementsByClassName("__pulse_story_image_container"),
+    source_subscribe: document.getElementById("__pulse_source_subscribe"),
+    brand_widget: document.getElementById("__pulse_brand_widget"),
+    comments_container: document.getElementById("__pulse_comments_container"),
+    comments_list_container: document.getElementById("__pulse_comments_list_container"),
+    comment_list: document.getElementById("__pulse_comments"),
+    comment_input: document.getElementById("__pulse_comment_input"),
+    comments_load: document.getElementById("__pulse_load_comments"),
+    content: document.getElementById("__pulse_content"),
+    scripts: document.getElementsByTagName("script"),
+    divs: document.getElementsByTagName("div"),
+    tag_array: "h1,h2,h3,h4,h5,h6,div,span,a,p,img,object,embed,audio,video,iframe,canvas,table,figure".split(","),
+    video_array: "EMBED,OBJECT,VIDEO,IFRAME,CANVAS".split(","),
+    hasClass: function(ele, cls) {
+        return ele.className.match(new RegExp("(\\s|^)" + cls + "(\\s|$)"));
+    },
+    addClass: function(ele, cls) {
+        if (!Pulse.DOM.hasClass(ele, cls)) ele.className += " " + cls;
+    },
+    removeClass: function(ele, cls) {
+        if (Pulse.DOM.hasClass(ele, cls)) {
+            var reg = new RegExp("\\b" + cls + "\\b", "gi");
+            ele.className = ele.className.replace(reg, "");
+        }
+    }
+};
+
+Pulse.init = function() {
+    Pulse.Format.removeMiscWhiteSpace();
+    [].forEach.call(Pulse.DOM.tag_array, function(tag) {
+        Pulse.Format.cleanTags(tag);
+    });
+    if (Pulse.Format.getSuggestedTextDirection(Pulse.DOM.content.innerHTML) == "rtl") {
+        document.getElementsByTagName("html")[0].setAttribute("dir", "rtl");
+    }
+    window.onorientationchange = Pulse.Native.orientationChange;
+};
+
+if (Pulse.Settings) {
+    if (!Pulse.Settings.is_source_subscribed && typeof Pulse.Settings.is_source_subscribed != "undefined") {
+        Pulse.Native.enableSourceSubscribe();
+    }
+    if (Pulse.Settings.is_dark) {
+        Pulse.Native.Android.toggleDark(true);
+    }
+}
+
+if (Pulse.DOM.brand_widget !== null) {
+    window.addEventListener("message", function(e) {
+        if (e.data.height) {
+            Pulse.Format.resizeBrandWidget(e.data.height);
+        }
+    }, false);
+}
+Pulse.LinkedIn = {{ linkedin }};
+Pulse.DOM.SocialCounts = document.getElementById("__pulse_social_counts");
+
+Pulse.DOM.LikeCount = document.getElementById("__pulse_like_count_container");
+
+Pulse.DOM.CommentCount = document.getElementById("__pulse_comment_count_container");
+
+Pulse.DOM.SocialLikePile = document.getElementById("__pulse_social_like_pile");
+
+Pulse.Templates.Comment = [ '<div class="__pulse_comment_avatar">', '<img src="{pictureID}" class="__pulse_comment_avatar_img" width="36" height="36" />', "</div>", '<div class="content">', '<h4 class="__pulse_comment_fullname">{fullName}</h4>', '<p class="message">{message}</p>', '<span class="date">{relativeTime}</span>', "</div>" ].join("");
+
+Pulse.Templates.LikeCount = [ '<div class="__pulse_social_count_content">', '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYxIDY0LjE0MDk0OSwgMjAxMC8xMi8wNy0xMDo1NzowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNS4xIE1hY2ludG9zaCIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpDNDdEMzc2RDAyMjAxMUUzQTZENzlFOUQ0RDFGN0MxOCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpDNDdEMzc2RTAyMjAxMUUzQTZENzlFOUQ0RDFGN0MxOCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkM0N0QzNzZCMDIyMDExRTNBNkQ3OUU5RDREMUY3QzE4IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkM0N0QzNzZDMDIyMDExRTNBNkQ3OUU5RDREMUY3QzE4Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+2WzcbQAAAYBJREFUeNrcV4ttgzAQJVYWoCM0I7BCOgIZgSyA5IyQSCwQj9CMUFbwCGUFRiDn6lVCkT9ng6nUk04mwfge777spmkqONK2bUnLlbQmNddvpGORKF3X/awi4plP0gbGC1wvFsF8+4qW48vfcgYmLwCL8QLG5VYAXCId4FYH0Hvu3Ze4QjAjVntAvANEdhfcPPdqpGg+AMRCHwAhU1JTRBaPCyMemtxZcCLVARD3bACIBVN+PwIgDAtfnOxIqgMAcWIUr28EqFP2lobj82GPlDQykF4C0V+ihzywd3ACgHFDWxXoC4pAnPHzwUy/GqqQSYPNBU3I+O8+AiFnLOgI7zVwy3VpL5jX/5SZoLIB0CkHrNYNUem4UqIHrD6Q9FuzsARAFgaGxED8Jy5AidVbBqKIHL9WZ8EGQG8QiPovGdDzyUo4Wq3OBEBjlhhDvUBFuIA7kqtX404AxILZfGY2mhALA86ynic8U48BccCDKiI2Ruy94Y0PPkZ33M/zXPIUYAB/vGvdueRWUAAAAABJRU5ErkJggg==" />', '<span id="__pulse_like_count" class="__pulse_social_count">{likeAbbrCount}</span>', "&nbsp;{likeLabel}", "</div>" ].join("");
+
+Pulse.Templates.CommentCount = [ '<div class="__pulse_social_count_content">', '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYxIDY0LjE0MDk0OSwgMjAxMC8xMi8wNy0xMDo1NzowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNS4xIE1hY2ludG9zaCIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpDNDdEMzc2OTAyMjAxMUUzQTZENzlFOUQ0RDFGN0MxOCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpDNDdEMzc2QTAyMjAxMUUzQTZENzlFOUQ0RDFGN0MxOCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkM0N0QzNzY3MDIyMDExRTNBNkQ3OUU5RDREMUY3QzE4IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkM0N0QzNzY4MDIyMDExRTNBNkQ3OUU5RDREMUY3QzE4Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+Le/OVQAAAftJREFUeNrEl08opHEYx72DOLhs4cbBQTIOHCRTuKiVg1zUOsjBTRQ1B7WJKGqbNlyYPZAiKeWyctE00jhYu/6UUpTave3BgZEwmv08+m3epne8Y3rf9/fUZ5p+7zvz/f7+P4+RTCZzdEaefASDwUzeLYKP0AS1UAnFkK+e38AfOIMYbIdCoQu7PzVkBGwMBGAQOqHwnR38AbOwjpmE1Qu+N35cJb1QvfmUhbhEPazAEZ1sztSAAcNwDG0OTXUNRDExAcZbBmQ+l+ErFDi83kR4FJbMJnwpZlahx+WF3wtTVgbGocuj3TfCKLSaDTTAZ4+PgFmZiv8GZmx2hBtRLYs8Nx6PN/JlTNNB+CS97tZ4EgfEQItGAxU+daZru4t8WR6xTsW9GEhoNHAuBi40GtgVA/saDayJgXVN4nvkCAdiYEddvV7GMwy93AW4kKRwwGMDY+j+Ml9GMQ+P4+V01/EkLLgsHoY+NeqvWbEKaeyHK5h2+Ha8lzQP4bBdTigmvqj84LdD4pvgtxJPHQFzHKr8vjxLUakRNmAO4RPbwiRNAulP8+wR/sIHlcTewjVcgohFBYQfMq6MLKI9Te/voAMi5kbEsp4fq4VWAvMW7ZeqSoo4uS1SDZTCFpSlrGBZmHVw6kpxaopvqpyKw0/4Dotqjl0JQ3d5/k+AAQCCiXsWpTjdygAAAABJRU5ErkJggg==" />', '<span id="__pulse_comment_count" class="__pulse_social_count">{commentAbbrCount}</span>', "&nbsp;{commentLabel}", "</div>" ].join("");
+
+Pulse.Templates.SocialLikePileItem = [ '<img src="{pictureID}" class="__pulse_like_pile_item" />' ].join("");
+
+Pulse.Templates.SocialLikePileMoreItem = [ '<div id="more_like_counts">&#43;{like_count_remaining_abbr}</div>' ].join("");
+
+Pulse.Comments = {
+    add: function(options) {
+        console.log("entered Pulse.Comments.add", options);
+        var item, comment_list, config = {}, template;
+        if (Pulse.Comments.isAuthenticated()) {
+            config = Pulse.LinkedIn;
+            config.message = options.message;
+            if (options.commenterId) {
+                config.commenterId = options.commenterId;
+            }
+            template = Pulse.Comments.drawComment(config);
+            comment_list = document.getElementById("__pulse_comments");
+            item = document.createElement("li");
+            item.className = "__pulse_comment_item";
+            item.innerHTML = template;
+            Pulse.Comments.setMemberDataSet(item, config);
+            comment_list.insertBefore(item, comment_list.firstChild);
+            if (Pulse.Platform == "Android") {
+                Pulse.DOM.comment_input.value = "";
+            }
+            Pulse.Comments.commentCountDidIncrement();
+            Pulse.Native.resizeStoryRequest();
+            Pulse.Comments.postRequest(options.message);
+        }
+    },
+    addAuthUserToLikePile: function() {
+        var defaults, config, template, like_node;
+        if (Pulse.Comments.isAuthenticated()) {
+            defaults = {
+                memberID: "",
+                fullName: "Unknown Name",
+                headline: "",
+                pictureID: "http://s.c.lnkd.licdn.com/scds/g/li1/contacts-static-13.32.7/contacts/davinci/images/themes/katy/ghosts/person/ghost_person_100x100_v1.png"
+            };
+            config = Pulse.Format.extend(defaults, Pulse.LinkedIn);
+            config.actorId = config.memberID ? config.memberID : "";
+            template = Pulse.Format.supplant(Pulse.Templates.SocialLikePileItem, config);
+            like_node = document.createElement("li");
+            like_node.innerHTML = template;
+            Pulse.Comments.setMemberDataSet(like_node, config);
+            var last_like_item = null, child_nodes_length = Pulse.DOM.SocialLikePile.childNodes.length;
+            if (child_nodes_length > 5) {
+                last_like_item = Pulse.DOM.SocialLikePile.lastChild.previousSibling;
+                Pulse.DOM.SocialLikePile.removeChild(last_like_item);
+            }
+            Pulse.DOM.SocialLikePile.insertBefore(like_node, Pulse.DOM.SocialLikePile.firstChild);
+        }
+    },
+    commentCountDidDecrement: function() {
+        var config_count = Pulse.Comments.Config["comment_count"], count = null;
+        if (config_count) {
+            count = parseInt(config_count, 10);
+            if (!!count && typeof count === "number") {
+                count = count -= 1;
+                Pulse.Comments.Config["comment_count"] = count;
+                return Pulse.Comments.renderCommentCount(count);
+            }
+        }
+    },
+    commentCountDidIncrement: function() {
+        var config_count = Pulse.Comments.Config["comment_count"], count = null;
+        if (config_count) {
+            count = parseInt(config_count, 10);
+            if (!!count && typeof count === "number") {
+                count = count += 1;
+                Pulse.Comments.Config["comment_count"] = count;
+                return Pulse.Comments.renderCommentCount(count);
+            }
+        }
+        Pulse.Comments.Config["comment_count"] = 1;
+        return Pulse.Comments.renderCommentCount(1);
+    },
+    isAuthenticated: function() {
+        if (typeof Pulse.LinkedIn === "object") {
+            if (Pulse.LinkedIn.memberID) {
+                return true;
+            }
+        }
+        return false;
+    },
+    likeCountDidDecrement: function() {
+        var config_count = Pulse.Comments.Config["like_count"], count = null;
+        Pulse.Comments.removeAuthUserFromLikePile();
+        if (config_count) {
+            count = parseInt(config_count, 10);
+            if (!!count && typeof count === "number") {
+                count = count -= 1;
+                Pulse.Comments.Config["like_count"] = count;
+                return Pulse.Comments.renderLikeCount(count);
+            }
+        }
+    },
+    likeCountDidIncrement: function() {
+        var config_count = Pulse.Comments.Config["like_count"], count = null;
+        Pulse.Comments.addAuthUserToLikePile();
+        if (config_count) {
+            count = parseInt(config_count, 10);
+            if (!!count && typeof count === "number") {
+                count = count += 1;
+                Pulse.Comments.Config["like_count"] = count;
+                return Pulse.Comments.renderLikeCount(count);
+            }
+        }
+        count = 1;
+        Pulse.Comments.Config["like_count"] = count;
+        return Pulse.Comments.renderLikeCount(count);
+    },
+    attachEventListeners: function() {
+        Pulse.DOM.comments_container.addEventListener("click", function(e) {
+            Pulse.Comments.commentViewDelegate(e);
+        }, false);
+        Pulse.DOM.comments_load.addEventListener("click", function() {
+            console.log("load more comments clicked");
+            Pulse.Comments.triggerCommentPaginationClick();
+        }, false);
+        Pulse.DOM.comment_input.addEventListener("focus", function() {
+            if (Pulse.Platform == "iOS") {
+                if (parseInt(Pulse.Comments.Config["comment_count"], 10) > 0) {
+                    this.style.webkitTransform = "translate3d(0px,-10000px,0)";
+                    webkitRequestAnimationFrame(function() {
+                        this.style.webkitTransform = "";
+                    }.bind(this));
+                }
+            }
+        }, false);
+        Pulse.DOM.comment_input.addEventListener("click", function() {
+            Pulse.Comments.showComposeViewRequest();
+        }, false);
+    },
+    getMemberDataSet: function(el) {
+        var node = el, stop_name = "__pulse_comments_container";
+        while ("memberInfo" in node.dataset === false) {
+            node = node.parentNode;
+            if (node.id.indexOf(stop_name) != -1) {
+                break;
+            }
+        }
+        if (node.dataset) {
+            console.log("member data set found", node.dataset);
+            return node.dataset;
+        }
+        console.log("member data set not found");
+        return null;
+    },
+    setMemberDataSet: function(item, item_meta) {
+        var attribute_map = {
+            id: {
+                name: "data-comment-id"
+            },
+            actorId: {
+                name: "data-commenter-id"
+            },
+            commenterId: {
+                name: "data-commenter-id"
+            },
+            fullName: {
+                name: "data-commenter-fullname"
+            },
+            headline: {
+                name: "data-commenter-headline"
+            },
+            pictureID: {
+                name: "data-commenter-picture"
+            },
+            memberToken: {
+                name: "data-member-token"
+            }
+        }, allowed_attributes = null;
+        if (item && item_meta) {
+            for (var key in attribute_map) {
+                if (attribute_map.hasOwnProperty(key)) {
+                    if (item_meta[key]) {
+                        if (key == "actorId" || key == "commenterId") {
+                            item_meta[key] = item_meta[key].replace("member:", "");
+                        }
+                        item.setAttribute(attribute_map[key]["name"], item_meta[key]);
+                    }
+                }
+            }
+            item.setAttribute("data-member-info", "linkedin");
+            return item;
+        }
+    },
+    commentViewDelegate: function(e) {
+        console.log("entered commentViewDelegate");
+        var comment_id, commenter_id, coords, member_dataset = null, card_options = null, target = e.target;
+        if (target.className.indexOf("__pulse_comment_avatar_img") != -1 || target.className.indexOf("__pulse_like_pile_item") != -1 || target.className.indexOf("__pulse_comment_fullname") != -1) {
+            member_dataset = Pulse.Comments.getMemberDataSet(target);
+            coords = Pulse.Native.getCumulativeOffsetCoords(target);
+            if (member_dataset && coords) {
+                card_options = {
+                    commenterId: member_dataset["commenterId"],
+                    pictureID: member_dataset["commenterPicture"],
+                    headline: member_dataset["commenterHeadline"],
+                    fullName: member_dataset["commenterFullname"],
+                    memberToken: member_dataset["memberToken"],
+                    coords: coords,
+                    width: target.clientWidth || 0,
+                    height: target.clientHeight || 0
+                };
+                return Pulse.Comments.showProfileCardRequest(card_options);
+            }
+            return;
+        }
+        member_dataset = Pulse.Comments.getMemberDataSet(target);
+        if (member_dataset) {
+            commenter_id = member_dataset["commenterId"];
+            comment_id = member_dataset["commentId"];
+            if (!!commenter_id && !!comment_id) {
+                if (commenter_id == Pulse.LinkedIn.memberID) {
+                    return Pulse.Comments.deleteRequest(comment_id);
+                }
+            }
+        }
+    },
+    showProfileCardRequest: function(options) {
+        console.log("entered showProfileCardRequest", options);
+        if (options && typeof options === "object") {
+            Pulse.Native.ajax({
+                message_type: "display_view",
+                type: "profile_card",
+                data: {
+                    commenterId: options["commenterId"],
+                    pictureID: options["pictureID"],
+                    headline: options["headline"],
+                    fullName: options["fullName"],
+                    memberToken: options["memberToken"],
+                    coords: options["coords"],
+                    width: options["width"],
+                    height: options["height"]
+                }
+            });
+        }
+    },
+    showComposeViewRequest: function() {
+        if (Pulse.Comments.isAuthenticated()) {
+            console.log("User logged in, calling native comment dialog.");
+            Pulse.Native.ajax({
+                message_type: "display_view",
+                type: "post_comment"
+            });
+        } else {
+            Pulse.Comments.Queue[0] = {
+                callback: Pulse.Native.ajax,
+                options: {
+                    message_type: "display_view",
+                    type: "post_comment"
+                }
+            };
+            console.log("User not logged in, calling native login dialog");
+            Pulse.Native.login();
+        }
+    },
+    drawComment: function(options) {
+        console.log("entered Pulse.Comments.drawComment");
+        var modified_time = options.modifiedDate || Date.now(), template, defaults, config;
+        defaults = {
+            id: "",
+            message: "",
+            commenterId: "",
+            fullName: "Unknown Name",
+            pictureID: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAMAAABHPGVmAAAAPFBMVEXMzMz09PTq6urR0dHy8vLZ2dne3t7v7+/Pz8/t7e3l5eXj4+PW1tbU1NTb29vs7Ozo6Ojg4ODx8fHn5+dYxFaIAAABhklEQVR4Xu3ZWW7DMAwEUA61e3d6/7v2N0BSV/JQQT70LjCgSFkgLE+GYRiGYY2TAoBOce2UMCc8SbN9TlC80CCWloS30iJW8oE/HdmoDI8L3qSYDf/YTDLoFD6DT3EeFbwThqKKCmFBJWbEJlSaiBCPSp46rf7ndaLaybSkf1MU1ZTpe//Oo4FxyAgZISNkhHzzVzgkNEjhVgYa3UkpaFSkHZp9a8iORru0m9FolnYOjZz0L2WWO/KOBnuWW/IPqv1kbpnrvtBFVInSf59T4ThieE0HeRZWfuAfjyy0yHed772KBffAhYcTE4F7dPmLv4mZnXio+AmLYscRd50+r10szcRryE5xEEuOaAm7RYithDeSGFrPgrfKuYqFHKaEC2kKmSwhKipovF3QawnXBUkrFw80O6JrSSi4qdTl5E1B0S3LtXXyoPnpag4WhRFdiAgyxh0wdrzMwOlhzp/yzCm6KK7iJx/Nh4p9irfVZvApq0dfq4gUdJYqGsLbpKC7IviAj4T8AghlFkyd3VocAAAAAElFTkSuQmCC",
+            headline: "",
+            relativeTime: Pulse.Format.getRelativeTime(modified_time) || ""
+        };
+        console.log("pictureID: ", defaults.pictureID);
+        console.log("defaults", defaults, "options", options);
+        config = Pulse.Format.extend(defaults, options);
+        config.commenterId = config.commenterId.replace("member:", "");
+        config.message = Pulse.Format.escapeHTML(config.message);
+        config.fullName = Pulse.Format.escapeHTML(config.fullName);
+        config.headline = Pulse.Format.escapeHTML(config.headline);
+        template = Pulse.Format.supplant(Pulse.Templates.Comment, config);
+        console.log("config", config);
+        console.log("comment template generated", template);
+        return template;
+    },
+    get: function(options) {
+        console.log("entered Pulse.Comments.get");
+        var defaults, config;
+        defaults = {
+            url: "/pulse-fe/summary/?url=" + Pulse.Story.url,
+            callback: "Pulse.Comments.getCallback",
+            baseUrl: Pulse.LinkedIn.baseUrl || "https://www.linkedin.com"
+        };
+        config = Pulse.Format.extend(defaults, options || {});
+        console.log("get comments from: " + config.baseUrl + config.url);
+        Pulse.Native.ajax({
+            message_type: "ajax",
+            type: "GET",
+            description: "summary",
+            url: config.baseUrl + config.url,
+            callback: config.callback
+        });
+    },
+    getCallback: function(response) {
+        console.log("entered getCallback", response);
+        if (response) {
+            Pulse.Comments.initSocialCounts(response);
+            Pulse.Comments.initComments(response);
+            Pulse.Comments.initLikePile(response);
+        }
+    },
+    init: function() {
+        console.log("entered social init");
+        Pulse.Comments.Config = {};
+        Pulse.Comments.Config["comment_count"] = null;
+        Pulse.Comments.Config["like_count"] = null;
+        if (!Pulse.Settings.show_image) {
+            var did_hide_image = Pulse.Format.hideStoryImage();
+            if (did_hide_image) {
+                Pulse.Native.resizeStoryRequest();
+            }
+        }
+        Pulse.Comments.attachEventListeners();
+        if (Pulse.Platform == "iOS" && Pulse.Story.url) {
+            document.getElementById("__pulse_comment_input").type = "button";
+            document.getElementById("__pulse_comment_input").value = "Add a comment...";
+            console.log("fetching comments");
+            Pulse.Comments.get();
+        }
+    },
+    initComments: function(response) {
+        if (response.comments) {
+            Pulse.Comments.renderComments(response.comments);
+        }
+    },
+    initLikePile: function(response) {
+        if (response.likes) {
+            Pulse.Comments.renderLikePile({
+                likes: response.likes
+            });
+        }
+    },
+    initSocialCounts: function(response) {
+        if (response.comments) {
+            if (response.comments.count) {
+                Pulse.Comments.Config["comment_count"] = response.comments.count;
+                Pulse.Comments.renderCommentCount(response.comments.count);
+            }
+        }
+        if (response.likes) {
+            if (response.likes.count) {
+                Pulse.Comments.Config["like_count"] = response.likes.count;
+                Pulse.Comments.renderLikeCount(response.likes.count);
+            }
+        }
+    },
+    togglePaginationButton: function(comments_response) {
+        console.log("entered togglePaginationButton");
+        if (comments_response.elements.length) {
+            if (comments_response.paging.links.length) {
+                Pulse.DOM.comments_load.style.display = "block";
+                Pulse.Comments.nextPagingURL = comments_response.paging.links[0].href;
+                console.log("keep showing pagination button");
+            }
+        } else {
+            Pulse.DOM.comments_load.style.display = "none";
+            Pulse.Comments.nextPagingURL = null;
+            console.log("hiding pagination button");
+        }
+    },
+    triggerCommentSubmit: function(event) {
+        console.log("entered triggerCommentSubmit");
+        var message = Pulse.Format.escapeHTML(document.getElementById("__pulse_comment_input").value);
+        message = Pulse.Format.trim(message);
+        if (message) {
+            if (Pulse.Comments.isAuthenticated()) {
+                return Pulse.Comments.add({
+                    message: message,
+                    commenterId: Pulse.LinkedIn.memberID
+                });
+            }
+            Pulse.Comments.Queue[0] = {
+                callback: Pulse.Comments.add,
+                options: {
+                    message: message
+                }
+            };
+            console.log("User not logged in, calling login...");
+            return Pulse.Native.login();
+        }
+        return false;
+    },
+    triggerCommentPaginationClick: function() {
+        if (Pulse.Comments.nextPagingURL) {
+            Pulse.Comments.get({
+                url: Pulse.Comments.nextPagingURL,
+                callback: "Pulse.Comments.initComments"
+            });
+        }
+    },
+    postRequest: function(comment) {
+        console.log("entered postRequest", comment);
+        var base_url = Pulse.LinkedIn.baseUrl || "https://www.linkedin.com";
+        Pulse.Native.ajax({
+            message_type: "ajax",
+            type: "POST",
+            description: "comment",
+            url: base_url + "/pulse-fe/comments/",
+            data: {
+                url: Pulse.Story.url,
+                comment: comment
+            },
+            callback: "Pulse.Comments.postCallback"
+        });
+    },
+    postCallback: function(response) {
+        console.log("entered postCallback: ", response);
+        var comment_list = document.getElementById("__pulse_comments"), first_item = comment_list.firstChild;
+        if (comment_list) {
+            if (response.id && Pulse.LinkedIn.memberID) {
+                first_item.setAttribute("data-comment-id", response.id);
+                first_item.setAttribute("data-commenter-id", Pulse.LinkedIn.memberID);
+            }
+        }
+    },
+    remove: function(target, comment_id) {
+        Pulse.Comments.deleteRequest(comment_id);
+    },
+    removeComment: function(comment_id) {
+        var list_items = Pulse.DOM.comment_list.getElementsByTagName("li");
+        for (var i = 0, l = list_items.length; i < l; i++) {
+            if (list_items[i].getAttribute("data-comment-id")) {
+                if (list_items[i].getAttribute("data-comment-id") == comment_id) {
+                    console.log("found comment to delete", list_items[i]);
+                    list_items[i].parentNode.removeChild(list_items[i]);
+                    Pulse.Comments.commentCountDidDecrement();
+                    Pulse.Native.resizeStoryRequest();
+                    break;
+                }
+            }
+        }
+    },
+    removeAuthUserFromLikePile: function() {
+        var auth_member_id = null, node_member_id, like_nodes;
+        if (Pulse.Comments.isAuthenticated()) {
+            auth_member_id = Pulse.LinkedIn.memberID;
+            like_nodes = Pulse.DOM.SocialLikePile.childNodes;
+            for (var i = 0, l = like_nodes.length; i < l; i++) {
+                if (like_nodes[i].getAttribute("data-commenter-id")) {
+                    node_member_id = like_nodes[i].getAttribute("data-commenter-id");
+                    if (node_member_id == auth_member_id) {
+                        like_nodes[i].parentNode.removeChild(like_nodes[i]);
+                        break;
+                    }
+                }
+            }
+        }
+    },
+    renderComments: function(comments_response) {
+        console.log("entered renderComments", comments_response);
+        var comments_length = comments_response.elements.length, comment_meta, item, template;
+        if (comments_length > 0) {
+            if (Pulse.Platform == "Android") {
+                Pulse.DOM.comment_list.innerHTML = "";
+            }
+            for (var i = 0; i < comments_length; i++) {
+                comment_meta = comments_response.elements[i];
+                item = document.createElement("li");
+                item.className = "__pulse_comment_item";
+                Pulse.Comments.setMemberDataSet(item, comment_meta);
+                template = Pulse.Comments.drawComment(comment_meta);
+                item.innerHTML = template;
+                Pulse.DOM.comment_list.appendChild(item);
+            }
+        }
+        Pulse.Comments.togglePaginationButton(comments_response);
+        Pulse.Native.resizeStoryRequest();
+    },
+    renderLikePile: function(likes_response) {
+        console.log("entered renderLikePile");
+        var template = "", temp_div = document.createElement("div"), defaults, config = {}, options, likes = likes_response.likes.elements, likes_length = likes_response.likes.count, like_count_remaining = 0, like_node, like_remaining_node, NUM_OF_TILES = 5;
+        defaults = {
+            commenterId: "",
+            fullName: "Unknown Name",
+            headline: "",
+            pictureID: "http://s.c.lnkd.licdn.com/scds/g/li1/contacts-static-13.32.7/contacts/davinci/images/themes/katy/ghosts/person/ghost_person_100x100_v1.png"
+        };
+        if (likes_length <= 5) {
+            NUM_OF_TILES = likes_length;
+        } else {
+            like_count_remaining = likes_length - NUM_OF_TILES;
+        }
+        for (var i = 0; i < NUM_OF_TILES; i++) {
+            like_node = document.createElement("li");
+            options = likes[i];
+            config = Pulse.Format.extend(defaults, options);
+            config.pictureID = likes[i].pictureID !== "" ? likes[i].pictureID : defaults.pictureID;
+            template = Pulse.Format.supplant(Pulse.Templates.SocialLikePileItem, config);
+            like_node.innerHTML = template;
+            Pulse.Comments.setMemberDataSet(like_node, config);
+            temp_div.appendChild(like_node);
+        }
+        if (like_count_remaining > 0) {
+            like_remaining_node = document.createElement("li");
+            comment_abbr_precision = like_count_remaining.toString().length < 4 ? 0 : 1;
+            config.like_count_remaining_abbr = Pulse.Format.abbreviateNumber(like_count_remaining, comment_abbr_precision);
+            template = Pulse.Format.supplant(Pulse.Templates.SocialLikePileMoreItem, config);
+            like_remaining_node.innerHTML = template;
+            temp_div.appendChild(like_remaining_node);
+        }
+        Pulse.DOM.SocialLikePile.innerHTML = temp_div.innerHTML;
+        Pulse.Native.resizeStoryRequest();
+    },
+    renderCommentCount: function(comment_count) {
+        console.log("entered renderCommentCount");
+        var template, defaults, config, comment_count = parseInt(comment_count, 10), commentAbbrPrecision = comment_count.toString().length < 4 ? 0 : 1;
+        defaults = {
+            commentCount: 0,
+            commentLabel: "comments"
+        };
+        config = defaults;
+        if (comment_count === 1) {
+            config.commentLabel = "comment";
+        }
+        config.commentCount = comment_count.toString();
+        config.commentAbbrCount = Pulse.Format.abbreviateNumber(comment_count, commentAbbrPrecision).toString();
+        template = Pulse.Format.supplant(Pulse.Templates.CommentCount, config);
+        console.log("comment count template", template, "config", config);
+        Pulse.DOM.CommentCount.innerHTML = template;
+        Pulse.Native.resizeStoryRequest();
+    },
+    renderLikeCount: function(like_count) {
+        console.log("entered renderLikeCount");
+        var template, defaults = {}, config = {}, like_count = parseInt(like_count, 10), likeAbbrPrecision = null;
+        defaults = {
+            likeCount: 0,
+            likeLabel: "likes"
+        };
+        config = defaults;
+        if (like_count === 1) {
+            config.likeLabel = "like";
+        }
+        config.likeCount = like_count.toString();
+        config.likeAbbrCount = Pulse.Format.abbreviateNumber(like_count, likeAbbrPrecision).toString();
+        template = Pulse.Format.supplant(Pulse.Templates.LikeCount, config);
+        console.log("like count template", template, "config", config);
+        Pulse.DOM.LikeCount.innerHTML = template;
+        Pulse.Native.resizeStoryRequest();
+    },
+    deleteRequest: function(comment_id) {
+        console.log("entered deleteCallback", comment_id);
+        Pulse.Native.ajax({
+            type: "POST",
+            message_type: "ajax",
+            description: "delete_comment",
+            data: {
+                commentId: comment_id
+            },
+            callback: "Pulse.Comments.deleteCallback"
+        });
+    },
+    deleteCallback: function(response) {
+        console.log("entered deleteCallback", response);
+        var comment_id = null;
+        if (response && typeof response === "object") {
+            if (response.commentId) {
+                comment_id = response.commentId;
+                Pulse.Comments.removeComment(comment_id);
+            }
+        }
+    },
+    Config: {},
+    Queue: []
+};
+Pulse.init();
+Pulse.Comments.init();</script>
+    </body>
+</html>
